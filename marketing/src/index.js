@@ -2,13 +2,14 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
+import AlloyNav from "./sections/navigation/AlloyNav/AlloyNav";
 import reportWebVitals from "./reportWebVitals";
 import HeadStream from "./sections/hero/HeadStream/HeadStream";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <HeadStream />
+    <AlloyNav />
   </React.StrictMode>
 );
 
