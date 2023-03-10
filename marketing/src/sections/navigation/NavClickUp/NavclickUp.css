@@ -1,28 +1,28 @@
-nav {
+.clickup-navigation {
     display: flex;
     text-align: center;
     justify-content: space-between;
     margin-left: 50px;
 }
 
-nav h1 {
+.clickup-navigation h1 {
 
     font-size: 2.3rem;
     font-weight: bold;
 }
 
-nav>div>img {
+.clickup-navigation>div>img {
     margin: 0px 10px;
     height: 40px;
     width: 30px;
 }
 
-nav>div:first-child {
+.clickup-navigation>div:first-child {
     display: flex;
     align-items: center;
 }
 
-nav>a {
+.clickup-navigation>a {
     color: black;
     text-decoration: none;
     align-items: center;
@@ -32,7 +32,7 @@ nav>a {
     margin-right: 50px;
 }
 
-nav select {
+.clickup-navigation select {
     border: none;
     box-decoration-break: none;
     font-size: 1.3rem;
@@ -40,7 +40,7 @@ nav select {
     text-align: center;
 }
 
-nav>span {
+.clickup-navigation>span {
     font-size: 1.3rem;
     font-weight: 600;
     margin-top: 41px;
@@ -50,7 +50,7 @@ nav>span {
 
 
 
-button {
+.clickup-navigation button {
     align-items: center;
     height: 30px;
     border-radius: 8px;
