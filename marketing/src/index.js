@@ -4,12 +4,13 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import Navigation from "./sections/navigation/NavClickUp/NavclickUp";
-import logo from './logo.svg';
+import logo from './click.png';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <Navigation image={logo} />
+    <hr></hr>
   </React.StrictMode>
 );
 
