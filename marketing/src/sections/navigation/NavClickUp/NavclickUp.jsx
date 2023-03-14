@@ -8,7 +8,7 @@ const NavclickUp = ({ image }) => {
                 <h1>ClickUp</h1>
             </div>
             <ul className='list-nav'>
-                <li className='li-nav'><a href="#sub">Products v</a>
+                <li className='li-nav'><a href="#sub">Products </a>
                     <ul class="dropdown">
                         <li><a href="#sub">Sub-1</a></li>
                         <li><a href="#sub">Sub-2</a></li>
