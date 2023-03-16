@@ -7,14 +7,14 @@
 
 .clickup-navigation h1 {
 
-    font-size: 2.3rem;
+    font-size: 2.5rem;
     font-weight: bold;
 }
 
 .clickup-navigation>div>img {
     margin: 0px 10px;
-    height: 40px;
-    width: 30px;
+    height: 50px;
+    width: 40px;
 }
 
 .clickup-navigation>div:first-child {
@@ -28,31 +28,13 @@
     align-items: center;
     font-weight: 600;
     margin-top: 40px;
-    font-size: 1.3rem;
-    margin-right: 50px;
+    font-size: 1.7rem;
 }
-
-.clickup-navigation select {
-    border: none;
-    box-decoration-break: none;
-    font-size: 1.3rem;
-    font-weight: 600;
-    text-align: center;
-}
-
-.clickup-navigation>span {
-    font-size: 1.3rem;
-    font-weight: 600;
-    margin-top: 41px;
-    margin-left: 50px;
-}
-
-
 
 
 .clickup-navigation button {
     align-items: center;
-    height: 30px;
+    height: 50px;
     border-radius: 8px;
     margin-top: 40px;
     border: none;
@@ -62,10 +44,21 @@
 .sign {
     background-color: #7c68ed;
     color: white;
+    height: 20px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin: 10px;
 }
 
+
 .log {
+    font-size: 1.3rem;
+    font-weight: 700;
     margin-right: 200px;
+}
+
+.buttons {
+    margin: 0px 10px;
 }
 
 li {
@@ -73,45 +66,50 @@ li {
     transition-duration: 0.5s;
 }
 
-li:hover {
-    cursor: pointer;
-
-}
-
-ul li ul {
-    visibility: hidden;
-    opacity: 0;
+.menuList {
     position: absolute;
-    transition: all 0.5s ease;
-    margin-top: 1rem;
-    left: 0;
-    display: none;
+    border: 1px solid;
+    margin: 45px -145px;
+    padding: 0px 50px;
+    border-radius: 8px;
+    background-color: white;
+    border: none;
+    box-sizing: border-box;
+    width: 1055px;
 }
 
-
-
-ul li:hover>ul,
-ul li ul:hover {
-    visibility: visible;
-    opacity: 1;
-    display: block;
-    margin: 0px 280px;
+.contact {
+    margin-left: 200px;
 }
 
-.list-nav {
-    align-items: center;
-    text-decoration: none;
+.menuBar {
     display: flex;
 }
 
-.li-nav {
-    font-weight: 600;
-    color: black;
-    font-size: 1.3rem;
-    margin: 10px 30px;
+.list h1 {
+    font-size: 1.5rem;
+    margin-right: 170px;
 }
 
-.li-nav>a {
-    color: black;
-    text-decoration: none;
+.list {
+    margin: 5px;
+    display: flex;
+    font-size: 1.2rem;
+}
+
+.list1 {
+    margin: 5px;
+    display: flex;
+    font-size: 1.2rem;
+}
+
+.list1 h1 {
+    font-size: 1.5rem;
+    margin-right: 100px;
+}
+
+.img-list {
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
 }
