@@ -1,0 +1,97 @@
+nav.kongnav {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.kongnav-container {
+    background-color: #ffffff;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.kongnav>div:first-child {
+    display: flex;
+    align-items: center;
+}
+
+.kongnav-menu {
+    margin-right: 80px;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.kongnav-menu img {
+    height: 20px;
+    margin-top: 5px;
+}
+
+.kong-logo img {
+    /* height: 80px; */
+    margin-left: 20px;
+    width: auto;
+    /* background-color: #fafbfd; */
+}
+
+
+.kongnav-menu>li:first-child a {
+    display: flex;
+    align-items: center;
+}
+
+.kongnav-link {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 20px;
+}
+
+.kongnav-link a {
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+.kongnav-link button {
+    font-size: 0.8rem;
+    padding: 15px 25px;
+    border-radius: 8px;
+}
+
+.open {
+    rotate: 180deg;
+}
+
+.demoBtn {
+    background-color: blue;
+    color: #ffffff;
+    border: 1px solid blue;
+}
+
+button {
+    cursor: pointer;
+}
+
+.startBtn {
+    background-color: #ffffff;
+    color: #5284d9;
+    border: 1px solid blue;
+}
+
+
+
+.dullBackground {
+    z-index: -10;
+    background-color: #00000099;
+}
+
+.brightBackground {
+    background-color: white;
+}

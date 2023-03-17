@@ -1,0 +1,80 @@
+section.hero-section {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.hero-section>div:first-child {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.hero-section>div:first-child h1 {
+    font-size: 3rem;
+}
+
+.hero-section>div:first-child p {
+    font-size: 1.3rem;
+    color: #a1a1a2;
+}
+
+.hero-section>div:first-child button {
+    border: 1px solid blue;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+div.hero-container {
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-description p {
+    color: #a1a1a2;
+    font-size: 1.2rem;
+}
+
+.section-description h2 {
+    margin-top: 10px;
+    font-size: 2rem;
+}
+
+.section-description a {
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.section-description>div:first-child {
+    border: 1px solid #83f6d4;
+    width: 100px;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 20px;
+    color: #a1a1a2;
+}
+
+.hero-section>div:last-child {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.hero-section>div:last-child h4 {
+    font-size: 1.3rem;
+    margin-bottom: 0;
+}
+
+.hero-section>div:last-child p {
+    font-size: 1.1rem;
+    color: #a1a1a2;
+}
+
+.hero-section>div:last-child img {
+    height: 60px;
+    border-radius: 10px;
+}

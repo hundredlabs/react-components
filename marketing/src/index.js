@@ -5,11 +5,13 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import HeadStream from "./sections/hero/HeadStream/HeadStream";
 import BlueSimple from "./sections/navigation/Blue-Simple/Blue-Simple";
+import KongNav from "./sections/navigation/KongNav/KongNav";
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <BlueSimple />
+    <KongNav />
   </React.StrictMode>
 );
 
