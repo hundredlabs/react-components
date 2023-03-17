@@ -1,0 +1,40 @@
+.segment-Navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 40px;
+    margin: 10px 30px;
+    align-items: center;
+}
+
+.features {
+    display: flex;
+}
+
+.features>a {
+    font-weight: 600;
+    color: black;
+    margin: 0px 60px;
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: 2.0rem;
+}
+
+.Nav-Btn>a {
+
+    font-weight: 600;
+    color: black;
+    margin: 0px 60px;
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: 2.0rem;
+}
+
+.Nav-Btn>button {
+    background-color: blue;
+    color: white;
+    padding: 20px 20px;
+    border: none;
+    font-size: 2.1rem;
+    font-weight: 500;
+    border-radius: 12px;
+}
