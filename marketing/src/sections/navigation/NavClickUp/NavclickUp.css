@@ -34,25 +34,24 @@
 
 .clickup-navigation button {
     align-items: center;
-    height: 50px;
     border-radius: 8px;
     margin-top: 40px;
     border: none;
-    padding: 0px 10px;
+    padding: 20px 20px;
+    margin-top: 25px;
 }
 
 .sign {
     background-color: #7c68ed;
     color: white;
-    height: 20px;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     font-weight: 700;
     margin: 10px;
 }
 
 
 .log {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: 700;
     margin-right: 200px;
 }
@@ -68,14 +67,20 @@ li {
 
 .menuList {
     position: absolute;
-    margin: 45px -280px;
+    margin: 45px;
     padding: 0px 40px;
     border-radius: 8px;
     background-color: white;
     border: none;
     box-sizing: border-box;
-    width: 2055px;
+    width: 2355px;
     display: flex;
+    margin: 0px -380px;
+    margin-top: 60px;
+}
+
+.menuList>div {
+    margin: 0px 50px;
 }
 
 .contact {
@@ -86,38 +91,58 @@ li {
     display: flex;
 }
 
-.list h1 {
-    font-size: 1.5rem;
-    margin-right: 170px;
-}
 
-.list {
+.new-list {
     display: flex;
     font-size: 1.2rem;
+    padding: 30px 20px;
 }
 
-.list1 {
+.new-list1 {
     display: flex;
     font-size: 1.2rem;
+    padding: 40px 40px;
+    justify-content: space-between;
 }
 
-.list1 h1 {
-    font-size: 1.5rem;
-    margin-right: 100px;
+
+.new-list h1 {
+    font-size: 2.2rem;
+    font-weight: 200;
+    margin: 25px;
 }
+
+.new-list p {
+    margin: 15px;
+}
+
+.new-list1 h1 {
+    font-size: 2.2rem;
+    font-weight: 200;
+    margin: 15px;
+}
+
+
+.new-list1 p {
+    margin: 15px;
+}
+
+.menuBar p {
+    margin: 15px;
+}
+
 
 .img-list {
-    height: 50px;
-    width: 50px;
-    margin-top: 10px;
-    margin: 10px;
+    height: 60px;
+    width: 60px;
+    margin-top: 20px;
 }
 
 .menuList button {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 600;
     border-radius: 12px;
-    padding: 5px 380px;
+    padding: 30px 520px;
     display: flex;
 }
 
@@ -128,12 +153,12 @@ li {
 
 .header-logo p4 {
     color: white;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
 }
 
 .header-logo p2 {
     color: #ff41c9;
-    font-size: 2.5rem;
+    font-size: 1.9rem;
 }
 
 .img-header {
@@ -145,12 +170,14 @@ li {
 .header-sentence {
     color: white;
     text-align: center;
+    font-size: 2.1rem;
 }
 
 .header {
     background: linear-gradient(108.42deg, #2a2e34 59.96%, #ff41c9 116.89%);
+    width: 1200px;
     border-radius: 12px;
-    padding: 20px 30px;
+    padding: 35px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -159,8 +186,8 @@ li {
 
 .menuList h1 {
     text-align: left;
-    font-size: 1.2rem;
-    font-weight: 700;
+    font-size: 2.2rem;
+    font-weight: 450;
 }
 
 
@@ -169,12 +196,12 @@ li {
     border-radius: 8px;
     padding: 1px 10px;
     color: white;
-    margin-right: 800px;
+    margin-right: 1100px;
 }
 
 .header-sentence p3 {
     color: #ff41c9;
-    font-size: 2.1rem;
+    font-size: 2.3rem;
 }
 
 .btnP {
@@ -186,6 +213,19 @@ li {
     display: flex;
 }
 
+.platform-h1 {
+    margin-left: 50px;
+}
+
 .main {
     justify-content: space-between;
+}
+
+.product-menu {
+    display: flex;
+}
+
+.open {
+    rotate: 180deg;
+
 }
