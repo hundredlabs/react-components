@@ -1,0 +1,60 @@
+.clerk-navigation>div {
+    margin: 0 auto;
+    max-width: 2200px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+}
+
+
+
+.clerk-navigation>div>a {
+    font-weight: 500;
+}
+
+.nav-a-tag {
+    display: flex;
+}
+
+.nav-a-tag>a {
+    margin: 0 40px;
+    text-decoration: none;
+    font-size: 1.7rem;
+}
+
+.nav-button>button {
+    color: blue;
+    border: none;
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    margin: 0 30px;
+}
+
+.nav-button:last-child {
+    margin-right: 100px;
+}
+
+.menuList {
+    position: absolute;
+    display: flex;
+}
+
+.menuList h1 {
+    font-size: 1.7rem;
+}
+
+.menuList h2 {
+    font-size: 1.4rem;
+}
+
+.feature-list {
+    display: flex;
+}
+
+.feature-list img {
+
+    margin-right: 20px;
+}
