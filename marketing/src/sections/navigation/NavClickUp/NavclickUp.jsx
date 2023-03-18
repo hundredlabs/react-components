@@ -17,7 +17,7 @@ const ProductBar = () => (
                 </div>
             </div>
             <div className='menuBar'>
-                <div className='new-list'>
+                <div className='product-menu-list'>
                     <div>
                         <img className='img-list' src='./NavBarImg/logo192.png' alt="Tash-logo" />
                     </div>
@@ -27,7 +27,7 @@ const ProductBar = () => (
                         <p>Break down any size product</p>
                     </div>
                 </div>
-                <div className='new-list'>
+                <div className='product-menu-list'>
                     <div>
                         <img className='img-list' src='./NavBarImg/logo192.png' alt="Tash-logo" />
                     </div>
@@ -38,7 +38,7 @@ const ProductBar = () => (
                         <p>Break down any size product</p>
                     </div>
                 </div>
-                <div className='new-list'>
+                <div className='product-menu-list'>
                     <div>
                         <img className='img-list' src='./NavBarImg/logo192.png' alt="Tash-logo" />
                     </div>
@@ -51,7 +51,7 @@ const ProductBar = () => (
             </div>
 
             <div className='menuBar'>
-                <div className='new-list'>
+                <div className='product-menu-list'>
                     <div>
                         <img className='img-list' src='./NavBarImg/logo192.png' alt="Tash-logo" />
                     </div>
@@ -62,7 +62,7 @@ const ProductBar = () => (
                         <p>Break down any size product</p>
                     </div>
                 </div>
-                <div className='new-list'>
+                <div className='product-menu-list'>
                     <div>
                         <img className='img-list' src='./NavBarImg/logo192.png' alt="Tash-logo" />
                     </div>
@@ -72,7 +72,7 @@ const ProductBar = () => (
                         <p>Break down any size product</p>
                     </div>
                 </div>
-                <div className='new-list'>
+                <div className='product-menu-list'>
                     <div>
                         <img className='img-list' src='./NavBarImg/logo192.png' alt="Tash-logo" />
                     </div>
@@ -85,9 +85,9 @@ const ProductBar = () => (
             </div>
             <button>See All Features    <div className='btnP'>→</div></button>
         </div>
-        <div>
+        <div className='platform-menu'>
             <h1 className='platform-h1'>PLATFORM</h1>
-            <div className='new-list1'>
+            <div className='platform-menu-list'>
                 <div>
                     <img className='img-list' src='./NavBarImg/logo192.png' alt="Tash-logo" />
                 </div>
@@ -105,7 +105,7 @@ const ProductBar = () => (
                     <p>Break down any size product</p>
                 </div>
             </div>
-            <div className='new-list1'>
+            <div className='platform-menu-list'>
                 <div>
                     <img className='img-list' src='./NavBarImg/logo192.png' alt="Tash-logo" />
                 </div>
@@ -123,7 +123,7 @@ const ProductBar = () => (
                     <p>Break down any size product</p>
                 </div>
             </div>
-            <div className='new-list1'>
+            <div className='platform-menu-list'>
                 <div>
                     <img className='img-list' src='./NavBarImg/logo192.png' alt="Tash-logo" />
                 </div>
@@ -173,8 +173,8 @@ const NavclickUp = ({ image }) => {
             <a href="#">Enterprises</a>
             <a className='contact' href="#">Contact Sales</a>
             <div className='buttons'>
-                <button className='sign'>Sign Up</button>
-                <button className='log'>Log in</button>
+                <button className='sign-btn-nav'>Sign Up</button>
+                <button className='log-btn-nav'>Log in</button>
             </div>
         </nav >
 

@@ -6,7 +6,6 @@
 }
 
 .clickup-navigation h1 {
-
     font-size: 2.5rem;
     font-weight: bold;
 }
@@ -41,7 +40,7 @@
     margin-top: 25px;
 }
 
-.sign {
+.sign-btn-nav {
     background-color: #7c68ed;
     color: white;
     font-size: 1.5rem;
@@ -50,7 +49,7 @@
 }
 
 
-.log {
+.log-btn-nav {
     font-size: 1.5rem;
     font-weight: 700;
     margin-right: 200px;
@@ -60,28 +59,15 @@
     margin: 0px 10px;
 }
 
-li {
-    display: block;
-    transition-duration: 0.5s;
-}
-
 .menuList {
     position: absolute;
+    left: 0px;
     margin: 45px;
-    padding: 0px 40px;
     border-radius: 8px;
     background-color: white;
-    border: none;
-    box-sizing: border-box;
-    width: 2355px;
     display: flex;
-    margin: 0px -380px;
-    margin-top: 60px;
 }
 
-.menuList>div {
-    margin: 0px 50px;
-}
 
 .contact {
     margin-left: 200px;
@@ -92,38 +78,39 @@ li {
 }
 
 
-.new-list {
+.product-menu-list {
     display: flex;
     font-size: 1.2rem;
     padding: 30px 20px;
 }
 
-.new-list1 {
+.platform-menu-list {
     display: flex;
     font-size: 1.2rem;
-    padding: 40px 40px;
+    padding: 30px;
     justify-content: space-between;
 }
 
 
-.new-list h1 {
+.product-menu-list h1 {
     font-size: 2.2rem;
     font-weight: 200;
     margin: 25px;
 }
 
-.new-list p {
+
+.product-menu-list p {
     margin: 15px;
 }
 
-.new-list1 h1 {
+.platform-menu-list h1 {
     font-size: 2.2rem;
     font-weight: 200;
     margin: 15px;
 }
 
 
-.new-list1 p {
+.platform-menu-list p {
     margin: 15px;
 }
 
@@ -206,7 +193,7 @@ li {
 
 .btnP {
     color: #7c68ed;
-    margin: 10px;
+    margin: 5px;
 }
 
 .platform {
