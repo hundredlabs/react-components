@@ -19,7 +19,7 @@ const ProductBar = () => (
             <div className='menuBar'>
                 <div className='product-menu-list'>
                     <div>
-                        <img className='img-list' src='./NavBarImg/logo192.png' alt="Tash-logo" />
+                        <img className='img-list' src='./NavBarImg/task.svg' alt="Tash-logo" />
                     </div>
                     <div>
                         <h1>Tasks</h1>
@@ -29,7 +29,7 @@ const ProductBar = () => (
                 </div>
                 <div className='product-menu-list'>
                     <div>
-                        <img className='img-list' src='./NavBarImg/logo192.png' alt="Tash-logo" />
+                        <img className='img-list' src='./NavBarImg/docs.svg' alt="Tash-logo" />
                     </div>
                     <div>
                         <h1>Docs</h1>
@@ -40,7 +40,7 @@ const ProductBar = () => (
                 </div>
                 <div className='product-menu-list'>
                     <div>
-                        <img className='img-list' src='./NavBarImg/logo192.png' alt="Tash-logo" />
+                        <img className='img-list' src='./NavBarImg/trophy.svg' alt="Tash-logo" />
                     </div>
                     <div>
                         <h1>Goals</h1>
@@ -53,7 +53,7 @@ const ProductBar = () => (
             <div className='menuBar'>
                 <div className='product-menu-list'>
                     <div>
-                        <img className='img-list' src='./NavBarImg/logo192.png' alt="Tash-logo" />
+                        <img className='img-list' src='./NavBarImg/white.svg' alt="Tash-logo" />
                     </div>
                     <div>
                         <h1>WhiteBoard</h1>
@@ -64,7 +64,7 @@ const ProductBar = () => (
                 </div>
                 <div className='product-menu-list'>
                     <div>
-                        <img className='img-list' src='./NavBarImg/logo192.png' alt="Tash-logo" />
+                        <img className='img-list' src='./NavBarImg/dash.svg' alt="Tash-logo" />
                     </div>
                     <div>
                         <h1>Dashboard</h1>
@@ -74,7 +74,7 @@ const ProductBar = () => (
                 </div>
                 <div className='product-menu-list'>
                     <div>
-                        <img className='img-list' src='./NavBarImg/logo192.png' alt="Tash-logo" />
+                        <img className='img-list' src='./NavBarImg/has.svg' alt="Tash-logo" />
                     </div>
                     <div>
                         <h1>Chat</h1>
@@ -85,60 +85,73 @@ const ProductBar = () => (
             </div>
             <button>See All Features    <div className='btnP'>→</div></button>
         </div>
+        <hr className='hr' />
         <div className='platform-menu'>
             <h1 className='platform-h1'>PLATFORM</h1>
             <div className='platform-menu-list'>
-                <div>
-                    <img className='img-list' src='./NavBarImg/logo192.png' alt="Tash-logo" />
+                <div className='platform-list'>
+                    <div>
+                        <img className='img-list' src='./NavBarImg/temp.svg' alt="Tash-logo" />
+                    </div>
+                    <div>
+                        <h1>Templates</h1>
+                        <p>Break down any size product</p>
+                        <p>Break down any size product</p>
+                    </div>
                 </div>
-                <div>
-                    <h1>Templates</h1>
-                    <p>Break down any size product</p>
-                    <p>Break down any size product</p>
-                </div>
-                <div>
-                    <img className='img-list' src='./NavBarImg/logo192.png' alt="Tash-logo" />
-                </div>
-                <div>
-                    <h1>ClickApps</h1>
-                    <p>Break down any size product</p>
-                    <p>Break down any size product</p>
-                </div>
-            </div>
-            <div className='platform-menu-list'>
-                <div>
-                    <img className='img-list' src='./NavBarImg/logo192.png' alt="Tash-logo" />
-                </div>
-                <div>
-                    <h1>Integrations</h1>
-                    <p>Break down any size product</p>
-                    <p>Break down any size product</p>
-                </div>
-                <div>
-                    <img className='img-list' src='./NavBarImg/logo192.png' alt="Tash-logo" />
-                </div>
-                <div>
-                    <h1>Views</h1>
-                    <p>Break down any size product</p>
-                    <p>Break down any size product</p>
+                <div className='platform-list'>
+                    <div>
+                        <img className='img-list' src='./NavBarImg/app.svg' alt="Tash-logo" />
+                    </div>
+                    <div>
+                        <h1>ClickApps</h1>
+                        <p>Break down any size product</p>
+                        <p>Break down any size product</p>
+                    </div>
                 </div>
             </div>
             <div className='platform-menu-list'>
-                <div>
-                    <img className='img-list' src='./NavBarImg/logo192.png' alt="Tash-logo" />
+                <div className='platform-list'>
+                    <div>
+                        <img className='img-list' src='./NavBarImg/flower.svg' alt="Tash-logo" />
+                    </div>
+                    <div>
+                        <h1>Integrations</h1>
+                        <p>Break down any size product</p>
+                        <p>Break down any size product</p>
+                    </div>
                 </div>
-                <div>
-                    <h1>Hierarchy</h1>
-                    <p>Break down any size product</p>
-                    <p>Break down any size product</p>
+                <div className='platform-list'>
+                    <div>
+                        <img className='img-list' src='./NavBarImg/views.svg' alt="Tash-logo" />
+                    </div>
+                    <div>
+                        <h1>Views</h1>
+                        <p>Break down any size product</p>
+                        <p>Break down any size product</p>
+                    </div>
                 </div>
-                <div>
-                    <img className='img-list' src='./NavBarImg/logo192.png' alt="Tash-logo" />
+            </div>
+            <div className='platform-menu-list'>
+                <div className='platform-list'>
+                    <div>
+                        <img className='img-list' src='./NavBarImg/hier.svg' alt="Tash-logo" />
+                    </div>
+                    <div>
+                        <h1>Hierarchy</h1>
+                        <p>Break down any size product</p>
+                        <p>Break down any size product</p>
+                    </div>
                 </div>
-                <div>
-                    <h1>Automotions</h1>
-                    <p>Break down any size product</p>
-                    <p>Break down any size product</p>
+                <div className='platform-list'>
+                    <div>
+                        <img className='img-list' src='./NavBarImg/auto.svg' alt="Tash-logo" />
+                    </div>
+                    <div>
+                        <h1>Automotions</h1>
+                        <p>Break down any size product</p>
+                        <p>Break down any size product</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -156,7 +169,7 @@ const NavclickUp = ({ image }) => {
             </div>
 
             <a href="" className="features">
-                <div onClick={(e) => {
+                <div onMouseOver={(e) => {
                     e.preventDefault();
                     modifystate(!isOpen)
                 }}>

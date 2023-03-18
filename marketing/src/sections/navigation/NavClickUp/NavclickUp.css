@@ -81,13 +81,13 @@
 .product-menu-list {
     display: flex;
     font-size: 1.2rem;
-    padding: 30px 20px;
+    padding: 40px 50px;
 }
 
 .platform-menu-list {
     display: flex;
     font-size: 1.2rem;
-    padding: 30px;
+    padding: 25px;
     justify-content: space-between;
 }
 
@@ -95,12 +95,17 @@
 .product-menu-list h1 {
     font-size: 2.2rem;
     font-weight: 200;
-    margin: 25px;
+    margin: 15px;
 }
 
+.hr {
+    color: rgb(255, 252, 252);
+    margin-left: 70px;
+    margin-right: 30px;
+}
 
 .product-menu-list p {
-    margin: 15px;
+    color: gray;
 }
 
 .platform-menu-list h1 {
@@ -111,7 +116,16 @@
 
 
 .platform-menu-list p {
+    color: gray;
     margin: 15px;
+}
+
+.platform-list {
+    display: flex;
+}
+
+.platform-menu-list>div {
+    margin: 0px 50px;
 }
 
 .menuBar p {
@@ -126,11 +140,12 @@
 }
 
 .menuList button {
-    font-size: 1.3rem;
-    font-weight: 600;
+    font-size: 2.2rem;
+    font-weight: 500;
     border-radius: 12px;
-    padding: 30px 520px;
+    padding: 10px 470px;
     display: flex;
+    margin-left: 20px;
 }
 
 .header-logo {
@@ -162,7 +177,7 @@
 
 .header {
     background: linear-gradient(108.42deg, #2a2e34 59.96%, #ff41c9 116.89%);
-    width: 1200px;
+    width: 1250px;
     border-radius: 12px;
     padding: 35px 20px;
     display: flex;
@@ -193,7 +208,8 @@
 
 .btnP {
     color: #7c68ed;
-    margin: 5px;
+    margin: 15px;
+    font-size: 3.1rem;
 }
 
 .platform {
@@ -201,7 +217,8 @@
 }
 
 .platform-h1 {
-    margin-left: 50px;
+    margin-left: 80px;
+    margin-bottom: 0px;
 }
 
 .main {
