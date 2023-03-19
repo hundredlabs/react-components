@@ -6,7 +6,7 @@ const ProductBar = () => (
     <div className="menuList">
         <div className='lists'>
             <div className='first-menu-list'>
-                <h1>SEGMENT FOR....</h1>
+                <h3>SEGMENT FOR....</h3>
                 <div className='segment-menu-list'>
                     <img src="./NavBarImg/click.png" alt="" />
                     <span>
@@ -111,7 +111,7 @@ const ProductBar = () => (
                         <p>Personalized and real-time customer experience</p>
                     </span>
                 </div>
-                <hr />
+                <hr className='hr' />
                 <div className='feature-menu-list'>
                     <img src="./NavBarImg/click.png" alt="" />
                     <span>
@@ -141,7 +141,7 @@ const SegmentNav = ({ image }) => {
             </div>
             <div className='features'>
                 <a href="" className="lists">
-                    <div onClick={(e) => {
+                    <div onMouseOver={(e) => {
                         e.preventDefault();
                         modifystate(!isOpen)
                     }}>

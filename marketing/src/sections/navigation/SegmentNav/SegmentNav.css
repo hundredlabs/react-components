@@ -11,22 +11,21 @@
 }
 
 .features>a {
-    font-weight: 600;
+    font-weight: 500;
     color: black;
     margin: 0px 60px;
     justify-content: space-between;
     text-decoration: none;
-    font-size: 2.0rem;
+    font-size: 1.6rem;
 }
 
 .Nav-Btn>a {
-
-    font-weight: 600;
+    font-weight: 500;
     color: black;
     margin: 0px 60px;
     justify-content: space-between;
     text-decoration: none;
-    font-size: 2.0rem;
+    font-size: 1.6rem;
 }
 
 .Nav-Btn>button {
@@ -34,14 +33,24 @@
     color: white;
     padding: 20px 20px;
     border: none;
-    font-size: 2.1rem;
+    font-size: 1.6rem;
     font-weight: 500;
     border-radius: 12px;
 }
 
 .menuList {
     position: absolute;
-    display: flex
+    display: flex;
+    margin: 40px;
+    left: 20%;
+    box-shadow: rgba(13, 21, 55, 0.4) 0px 40px 80px;
+    border-radius: 12px;
+}
+
+.hr {
+    height: 1px;
+    background-color: lightslategray;
+    border: none;
 }
 
 .segment-menu-list {
@@ -49,12 +58,13 @@
 }
 
 .first-menu-list h1 {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     margin-bottom: 0;
+    font-weight: 500;
 }
 
 .product-list {
-    margin-top: 80px;
+    margin-top: 70px;
     margin-right: 100px;
 }
 
@@ -64,19 +74,24 @@
     padding: 40px;
 }
 
+.first-menu-list h3 {
+    font-size: 1.2rem;
+}
+
 .feature-list h1 {
-    font-size: 1.6rem;
-    margin-bottom: 0;
+    font-size: 1.4rem;
+    margin-bottom: 3px;
+    font-weight: 500;
 }
 
 .feature-list {
-    background-color: lightgray;
+    background-color: #f4f4f6;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
     padding: 20px;
     width: 600px;
     padding: 40px;
-    height: 980px;
+    height: 920px;
 }
 
 .feature-menu-list {
@@ -91,7 +106,7 @@
 
 .feature-menu-list img {
     height: 30px;
-    margin-top: 30px;
+    margin-top: 33px;
     margin-right: 20px;
 }
 
@@ -103,6 +118,7 @@
 
 .segment-menu-list h1 {
     margin-top: 30px;
+    font-weight: 500;
 }
 
 
@@ -110,7 +126,7 @@
     height: 30px;
     margin-top: 30px;
     margin-right: 20px;
-    background-color: lightgrey;
+    background-color: #f4f4f6;
     border-radius: 8px;
     padding: 25px 30px;
 }
