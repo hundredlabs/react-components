@@ -1,10 +1,10 @@
 .clerk-navigation>div {
     margin: 0 auto;
-    max-width: 2200px;
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
+    margin-top: 40px;
     align-items: center;
+    padding: 0px 200px;
 }
 
 
@@ -21,16 +21,7 @@
     margin: 0 40px;
     text-decoration: none;
     font-size: 1.7rem;
-}
-
-.nav-button>button {
-    color: blue;
-    border: none;
-    background-color: white;
-    padding: 15px;
-    border-radius: 8px;
-    font-size: 1.5rem;
-    margin: 0 30px;
+    font-weight: 500;
 }
 
 .nav-button:last-child {
@@ -40,21 +31,75 @@
 .menuList {
     position: absolute;
     display: flex;
+    left: 15%;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+    height: 1050px;
+}
+
+.menuList>div {
+    margin: 10px 150px;
 }
 
 .menuList h1 {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
+    margin-top: 30px;
 }
 
 .menuList h2 {
     font-size: 1.4rem;
+    margin-bottom: 0;
+    margin-top: 40px;
+}
+
+.menuList h3 {
+    font-size: 1.4rem;
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+
+.sign-in {
+    border: none;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    margin: 0 30px;
+    color: black;
+}
+
+.sign-up {
+    color: blue;
+    border: none;
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    margin: 0 30px;
+}
+
+.menuList h4 {
+    font-size: 1.4rem;
+    margin-bottom: 0;
+    margin-top: 90px;
+}
+
+.menuList h5 {
+    font-size: 1.4rem;
+    margin-bottom: 0;
+    margin-top: 40px;
 }
 
 .feature-list {
     display: flex;
+    font-size: 1.4rem;
 }
 
 .feature-list img {
-
     margin-right: 20px;
+    margin-top: 25px;
+}
+
+.feature-list p {
+    margin-bottom: 0px;
 }

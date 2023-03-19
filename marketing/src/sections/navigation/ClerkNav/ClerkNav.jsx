@@ -48,15 +48,15 @@ const Product = () => (
                 <p>Auth & User Components</p>
             </div>
             <div className="feature-list">
-                <img src="./imgClerk/security.svg" alt="" />
+                <img src="./imgClerk/b2b.svg" alt="" />
                 <p>B2B Saas Components</p>
             </div>
             <div className="feature-list">
-                <img src="./imgClerk/security.svg" alt="" />
+                <img src="./imgClerk/comp.svg" alt="" />
                 <p>Components Customization</p>
             </div>
             <div className="feature-list">
-                <img src="./imgClerk/security.svg" alt="" />
+                <img src="./imgClerk/see.svg" alt="" />
                 <p>See All Components</p>
             </div>
 
@@ -64,58 +64,58 @@ const Product = () => (
         <div>
             <h4>JAMSTACK FRAMEWORK INTEGRATIONS</h4>
             <div className="feature-list">
-                <img src="./imgClerk/security.svg" alt="" />
-                <p>See All Components</p>
+                <img src="./imgClerk/next.svg" alt="" />
+                <p>Next.js</p>
             </div>
             <div className="feature-list">
                 <img src="./imgClerk/security.svg" alt="" />
-                <p>See All Components</p>
+                <p>Remix</p>
+            </div>
+            <div className="feature-list">
+                <img src="./imgClerk/redwood.svg" alt="" />
+                <p>RedwoodJS</p>
+            </div>
+            <div className="feature-list">
+                <img src="./imgClerk/gats.svg" alt="" />
+                <p>Gatsby</p>
+            </div>
+            <div className="feature-list">
+                <img src="./imgClerk/react.svg" alt="" />
+                <p>React</p>
+            </div>
+            <div className="feature-list">
+                <img src="./imgClerk/expo.svg" alt="" />
+                <p>React Native / Expo</p>
+            </div>
+            <h5>JAMSTACK DATABASE INTEGRATIONS</h5>
+            <div className="feature-list">
+                <img src="./imgClerk/hasura.svg" alt="" />
+                <p>Hasura</p>
             </div>
             <div className="feature-list">
                 <img src="./imgClerk/security.svg" alt="" />
-                <p>See All Components</p>
+                <p>Supabase</p>
             </div>
             <div className="feature-list">
-                <img src="./imgClerk/security.svg" alt="" />
-                <p>See All Components</p>
+                <img src="./imgClerk/fauna.svg" alt="" />
+                <p>Fauna</p>
             </div>
             <div className="feature-list">
-                <img src="./imgClerk/security.svg" alt="" />
-                <p>See All Components</p>
+                <img src="./imgClerk/firebase.svg" alt="" />
+                <p>Firebase</p>
             </div>
             <div className="feature-list">
-                <img src="./imgClerk/security.svg" alt="" />
-                <p>See All Components</p>
-            </div>
-            <h5>AMSTACK DATABASE INTEGRATIONS</h5>
-            <div className="feature-list">
-                <img src="./imgClerk/security.svg" alt="" />
-                <p>See All Components</p>
-            </div>
-            <div className="feature-list">
-                <img src="./imgClerk/security.svg" alt="" />
-                <p>See All Components</p>
-            </div>
-            <div className="feature-list">
-                <img src="./imgClerk/security.svg" alt="" />
-                <p>See All Components</p>
-            </div>
-            <div className="feature-list">
-                <img src="./imgClerk/security.svg" alt="" />
-                <p>See All Components</p>
-            </div>
-            <div className="feature-list">
-                <img src="./imgClerk/security.svg" alt="" />
-                <p>See All Components</p>
+                <img src="./imgClerk/graf.svg" alt="" />
+                <p>Grafbase</p>
             </div>
             <h5>TRADITIONAL FRAMEWORK INTEGRATIONS</h5>
             <div className="feature-list">
-                <img src="./imgClerk/security.svg" alt="" />
-                <p>See All Components</p>
+                <img src="./imgClerk/node.svg" alt="" />
+                <p>Node / Express</p>
             </div>
             <div className="feature-list">
-                <img src="./imgClerk/security.svg" alt="" />
-                <p>See All Components</p>
+                <img src="./imgClerk/ruby.svg" alt="" />
+                <p>Ruby / Rails</p>
             </div>
         </div>
     </div>
@@ -144,8 +144,8 @@ const Clerk = ({ image }) => {
                     <a href="" >Pricing</a>
                 </div>
                 <div className="nav-button">
-                    <button>Sign in</button>
-                    <button>Sign up</button>
+                    <button className="sign-in">Book a demo</button>
+                    <button className="sign-up">Sign up</button>
                 </div>
             </div >
         </nav>
