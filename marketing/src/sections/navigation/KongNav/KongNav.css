@@ -2,7 +2,7 @@ nav.kongnav {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     gap: 20px;
 }
@@ -27,6 +27,15 @@ nav.kongnav {
     gap: 20px;
     font-size: 1.2rem;
     cursor: pointer;
+}
+
+.product-menu {
+    font-weight: bold;
+}
+
+.product-menu:hover {
+    color: #537085;
+    font-weight: bold;
 }
 
 .kongnav-menu img {
@@ -70,9 +79,9 @@ nav.kongnav {
 }
 
 .demoBtn {
-    background-color: blue;
+    background-color: #1155cb;
     color: #ffffff;
-    border: 1px solid blue;
+    border: 1px solid #1155cb;
 }
 
 button {
@@ -82,10 +91,25 @@ button {
 .startBtn {
     background-color: #ffffff;
     color: #5284d9;
-    border: 1px solid blue;
+    border: 1px solid #1155cb;
+    transition: .4s all ease-in-out;
+    transform: translateX(0);
 }
 
+.startBtn:hover {
+    background-color: #1155cb;
+    color: white;
+    transform: translateX(1);
 
+}
+
+.kongnav-menu-2 {
+    font-weight: bold;
+}
+
+.kongnav-menu-2:hover {
+    color: #537085;
+}
 
 .dullBackground {
     z-index: -10;

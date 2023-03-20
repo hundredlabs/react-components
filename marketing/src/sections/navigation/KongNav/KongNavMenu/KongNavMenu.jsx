@@ -1,5 +1,5 @@
 import "./KongNavMenu.css"
-
+import arrowDiagonal from "../../../../img/sections/KongNav/diagonal-arrow.svg"
 const KongNavMenu = () => {
     return (
         <ul className="menu-container">
@@ -30,11 +30,11 @@ const KongNavMenu = () => {
                                 <p>Single platform for SaaS end-to-end connectivity</p>
                                 <ul>
                                     <li>Overview</li>
-                                    <li className="pipe">|</li>
+                                    <div className="pipe">|</div>
                                     <li>Docs</li>
-                                    <li className="pipe">|</li>
+                                    <div className="pipe">|</div>
                                     <li>Plugin Hub</li>
-                                    <li className="pipe">|</li>
+                                    <div className="pipe">|</div>
                                     <li>Pricing</li>
                                 </ul>
                             </div >
@@ -45,9 +45,9 @@ const KongNavMenu = () => {
                                 <p>Enterprise service mesh based on kuma and Envoy</p>
                                 <ul>
                                     <li>Overview</li>
-                                    <li className="pipe">|</li>
+                                    <div className="pipe">|</div>
                                     <li>Docs</li>
-                                    <li className="pipe" >|</li>
+                                    <div className="pipe" >|</div>
                                     <li>Zero Trust Security</li>
                                 </ul>
                             </div>
@@ -62,21 +62,25 @@ const KongNavMenu = () => {
                                 <p>See what makes the Kong fastest,most adopted API gateway</p>
                                 <ul>
                                     <li>Overview</li>
-                                    <li className="pipe">|</li>
+                                    <div className="pipe">|</div>
                                     <li>Docs</li>
-                                    <li className="pipe">|</li>
+                                    <div className="pipe">|</div>
                                     <li>Plugin Hub</li>
                                 </ul>
                             </div>
                             <div className="menu-description kong-insomnia-mesh">
                                 <a href="">Kong Insomnia</a>
-                                <p>Collaborative API design platform</p>
-                                <ul>
-                                    <li>Overview</li>
-                                    <li className="pipe">|</li>
-                                    <li>Docs</li>
-                                    <li className="pipe">|</li>
-                                    <li>Plugin</li>
+                                <p>Collaborative API design platform
+                                </p>
+                                <ul className="kong-insomania">
+                                    <li>Overview
+                                    </li>
+                                    <div className="pipe">|</div>
+                                    <li>Docs
+                                    </li>
+                                    <div className="pipe">|</div>
+                                    <li>Plugin
+                                    </li>
                                 </ul>
                             </div>
                         </li>

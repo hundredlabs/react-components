@@ -1,9 +1,8 @@
 import "./KongNav.css"
 import KongNavMenu from "./KongNavMenu/KongNavMenu";
-import image from "../../../img/sections/hero/dropdown-arrow.svg"
+import image from "../../../img/sections/KongNav/dropdown-arrow.svg"
 import React from "react";
-import KongSection from "../../KongSection/KongSection";
-import navlogo from "../../../img/sections/hero/rocket.png"
+import navlogo from "../../../img/sections/KongNav/rocket.png"
 
 const KongNav = () => {
     const [isOpen, setOpen] = React.useState(false)
@@ -26,16 +25,17 @@ const KongNav = () => {
                                 <div onClick={(e) => {
                                     e.preventDefault();
                                     setOpen(!isOpen)
+
                                 }}>
-                                    <a> <div>
+                                    <a> <div className="product-menu">
                                         Products</div> <img className={isOpen ? "open" : "close"} src={image} alt="" /></a>
                                     {isOpen && (<KongNavMenu />)}
                                 </div>
                             </li>
-                            <li>Solution</li>
-                            <li>Customers</li>
-                            <li>Resources</li>
-                            <li>Company</li>
+                            <li className="kongnav-menu-2">Solution</li>
+                            <li className="kongnav-menu-2">Customers</li>
+                            <li className="kongnav-menu-2">Resources</li>
+                            <li className="kongnav-menu-2">Company</li>
                         </ul>
                     </div>
                     <div className="kongnav-link">
@@ -46,11 +46,6 @@ const KongNav = () => {
                 </nav>
                 <hr />
             </div>
-
-            {/* <section className={isOpen ? "dull" : "bright"}>
-            </section> */}
-            {/*   <KongSection /> */}
-
         </div>
     )
 }

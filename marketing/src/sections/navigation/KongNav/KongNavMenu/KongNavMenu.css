@@ -59,3 +59,19 @@ div.menu-description ul {
 .kong-insomnia-mesh {
     margin-top: -20px;
 }
+
+.menu-description>ul li {
+    font-weight: bold;
+}
+
+.menu-description>ul li:hover {
+    color: #537085;
+}
+
+.products-menu-option a {
+    font-weight: bold;
+}
+
+.products-menu-option a:hover {
+    color: #537085;
+}
