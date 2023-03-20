@@ -140,15 +140,11 @@ const SegmentNav = () => {
                 <img src="../NavBarImg/segment.svg" alt="logo" />
                 <h1>Segment</h1>
             </div>
-            <a href="" className={`features ${isOpen ? 'open-feature' : ''}`} onMouseMove={(e) => {
-                e.preventDefault();
-                modifystate(true)
-            }} onMouseLeave={(e) => modifystate(false)} ></a>
             <div className='features'>
-                <a href="" className="lists">
-                    <span>Product</span>
-                    {isOpen && (
-                        <ProductBar />)}
+                <a href="" className={`features ${isOpen ? 'open-feature' : ''}`} onMouseOver={(e) => {
+                    e.preventDefault();
+                    modifystate(true)
+                }} onMouseLeave={(e) => modifystate(false)}>
                 </a>
 
                 <a href="#sub">Pricing</a>
@@ -159,7 +155,6 @@ const SegmentNav = () => {
             <div className='Nav-Btn'>
                 <a href="">Log in</a>
                 <button>See How it works</button>
-
             </div>
         </nav>
 
