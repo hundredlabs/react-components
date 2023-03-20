@@ -1,8 +1,8 @@
 .segment-Navigation {
     display: flex;
     justify-content: space-between;
-    padding: 50px 40px;
-    margin: 10px 30px;
+    padding: 0px 40px;
+    margin: 0px 20px;
     align-items: center;
 }
 
@@ -133,4 +133,26 @@
 
 .lists {
     display: flex;
+}
+
+.segment-menu-list span:hover {
+    color: lightgreen;
+}
+
+.segment-menu-list span>p:hover {
+    color: lightgreen;
+}
+
+.feature-list div span:hover {
+    color: lightgreen;
+}
+
+.feature-list div span p:hover {
+    color: lightgreen;
+}
+
+.header {
+    display: flex;
+    text-align: center;
+    align-items: center;
 }

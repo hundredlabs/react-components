@@ -132,23 +132,23 @@ const ProductBar = () => (
 )
 
 
-const SegmentNav = ({ image }) => {
+const SegmentNav = () => {
     const [isOpen, modifystate] = React.useState(false)
     return (
         <nav className='segment-Navigation'>
-            <div>
-                <img src={image} alt="logo" />
+            <div className='header'>
+                <img src="../NavBarImg/segment.svg" alt="logo" />
+                <h1>Segment</h1>
             </div>
+            <a href="" className={`features ${isOpen ? 'open-feature' : ''}`} onMouseMove={(e) => {
+                e.preventDefault();
+                modifystate(true)
+            }} onMouseLeave={(e) => modifystate(false)} ></a>
             <div className='features'>
                 <a href="" className="lists">
-                    <div onMouseOver={(e) => {
-                        e.preventDefault();
-                        modifystate(!isOpen)
-                    }}>
-                        <span>Product</span>
-                        {isOpen && (
-                            <ProductBar />)}
-                    </div>
+                    <span>Product</span>
+                    {isOpen && (
+                        <ProductBar />)}
                 </a>
 
                 <a href="#sub">Pricing</a>

@@ -1,16 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import SegmentNav from "./sections/navigation/SegmentNav/SegmentNav";
-import photo from "./img/sections/hero/segment-logo.png";
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <SegmentNav image={photo} />
+    <SegmentNav />
   </React.StrictMode>
 );
 
