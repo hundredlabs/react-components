@@ -4,7 +4,7 @@
     justify-content: space-between;
     margin-top: 40px;
     align-items: center;
-    padding: 0px 200px;
+    padding: 0px 250px;
 }
 
 
@@ -20,7 +20,7 @@
 .nav-a-tag>a {
     margin: 0 40px;
     text-decoration: none;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     font-weight: 500;
 }
 
@@ -31,15 +31,20 @@
 .menuList {
     position: absolute;
     display: flex;
-    left: 15%;
+    left: 20%;
     background-color: white;
     border-radius: 20px;
-    margin-top: 20px;
+    margin-top: 0px;
     height: 1050px;
 }
 
 .menuList>div {
-    margin: 10px 150px;
+    margin: 10px 100px;
+}
+
+.feature-list:hover {
+    background-color: lightgray;
+    border-radius: 8px;
 }
 
 .menuList h1 {

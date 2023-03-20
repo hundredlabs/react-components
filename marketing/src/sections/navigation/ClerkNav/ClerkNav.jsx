@@ -123,18 +123,20 @@ const Product = () => (
 
 
 const Clerk = ({ image }) => {
-    const [isOpen, setOpen] = React.useState(false)
+    const [isOpen, modifystate] = React.useState(false)
     return (
         <nav className="clerk-navigation">
             <div className="clerk-logo">
                 <img src={image} alt="" />
                 <div className="nav-a-tag">
-                    <a href="">
-                        <div onMouseOver={(e) => {
-                            e.preventDefault();
-                            setOpen(!isOpen)
-                        }}>
-                            <span>Product</span>
+                    <a href="" className={`features ${isOpen ? 'open-feature' : ''}`} onMouseOver={(e) => {
+                        e.preventDefault();
+                        modifystate(true)
+                    }} onMouseLeave={(e) => modifystate(false)}>
+                        <div >
+                            <span className='product-menu'>
+                                <div>Product</div>
+                            </span>
                             {isOpen && (<Product />)}
                         </div>
                     </a>
