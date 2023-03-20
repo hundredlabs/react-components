@@ -1,8 +1,3 @@
-/* body {
-
-    background-color: white;
-}
-
 .dim-bg {
     background-color: #F4E8D4;
 }
@@ -16,9 +11,9 @@ nav.omnisend-nav {
     align-items: center;
     justify-content: space-between;
     position: relative;
-    max-width: 1500px;
+    max-width: 1400px;
     margin: 0 auto;
-    padding: 30px 120px;
+    padding: 30px 100px;
     background-color: #FFF;
 }
 
@@ -30,8 +25,17 @@ nav.omnisend-nav {
 .omnisend-nav a {
     text-decoration: none;
     color: black;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 1rem;
+    margin-left: 30px;
+}
+
+.feature-title {
+    margin-left: 20px;
+}
+
+.omnisend-logo {
+    margin-right: 30px;
 }
 
 .omnisend-nav p {
@@ -39,7 +43,6 @@ nav.omnisend-nav {
     font-weight: 100;
     font-size: .9rem;
 }
-
 
 .omnisend-nav hr {
     color: #d5d3d3;
@@ -54,7 +57,7 @@ nav.omnisend-nav {
 
 .omnisend-nav span {
     font-weight: 500;
-    margin-left: 30px;
+    margin-left: 0px;
 }
 
 
@@ -65,16 +68,16 @@ nav.omnisend-nav {
 
 .onmisend-right-nav-request {
     border: 1px solid;
-    padding: 10px 15px;
+    padding: 10px 20px;
     border-radius: 5px;
-    margin-left: 20px;
+
 }
 
 .onmisend-right-nav-start {
     background-color: #000;
     padding: 10px 15px;
     border-radius: 5px;
-    margin-left: 20px;
+
 }
 
 .onmisend-right-nav-start span {
@@ -130,7 +133,7 @@ nav.omnisend-nav {
 }
 
 .feature-menu-list>ul.open {
-    height: 365px;
+    height: 360px;
     opacity: 1;
 }
 
@@ -144,14 +147,14 @@ nav.omnisend-nav {
     gap: 50px;
 }
 
-h3 {
+.sub-feature-menu h3 {
     font-weight: normal;
     font-weight: 400;
     margin-bottom: 0;
     margin-top: 20px;
 }
 
-h5 {
+.submeniu-title h5 {
     margin-bottom: 0;
     margin-top: 30px;
     margin-left: 20px;
@@ -174,14 +177,23 @@ h5 {
     left: 0;
     margin-top: 20px;
     margin-left: 0;
-
+    padding: 5px 5px;
+    border-radius: 5px;
 }
 
 .product-items hr {
     width: 250px;
     color: #efeaea;
     margin-top: 20px;
+    margin-bottom: 0;
+
     color: #efeaea;
+}
+
+.product-items span {
+    margin-top: -5px;
+    margin-bottom: 0;
+
 }
 
 .submeniu-title h3 {
@@ -217,4 +229,4 @@ h5 {
     text-transform: uppercase;
     color: #ACB5B4;
     margin-bottom: 16px;
-} */
+}

@@ -84,8 +84,8 @@ const OmnisendNav = () => {
 
         <nav className="omnisend-nav">
             <div>
-                <img src='/img/sections/hero/HeadStream/omnisend_logo_dark.svg' alt='' height={25} />
-                <a className="" href="">
+                <img className="omnisend-logo" src='/img/sections/navigations/OmniSend/omnisend_logo_dark.svg' alt='' height={20} />
+                <a href="">
                     <div style={{ display: "inline-block" }} onClick={(e) => {
                         e.preventDefault();
                         console.log('clicked')
@@ -98,8 +98,9 @@ const OmnisendNav = () => {
 
                     }}
                     >
-                        <span className="btn">Features <img className={isOpen ? 'clicked' : ''} src='/img/sections/hero/HeadStream/drop-down.png' alt="" height={10} /></span>
+                        <span>Features <img className={isOpen ? 'clicked' : ''} src='/img/sections/navigations/OmniSend/drop-down.png' alt="" height={10} /></span>
                     </div>
+                    <FeaturesMenu show={isOpen} />
 
                 </a>
                 <a href=""><span>Pricing</span></a>
@@ -108,13 +109,12 @@ const OmnisendNav = () => {
                 <a href=""><span>Resources</span></a>
             </div>
             <div className="onmisend-right-nav">
-                <a href=""><span>Search <img src="/img/sections/hero/HeadStream/search-icon.svg" alt="" /></span></a>
+                <a href=""><span>Search <img src="/img/sections/navigations/OmniSend/search-icon.svg" alt="" /></span></a>
                 <a className="onmisend-right-nav-request" href=""><span>Request demo</span></a>
                 <a className="onmisend-right-nav-start" href=""><span>Start free</span></a>
                 <a href=""><span>Login</span></a>
             </div>
 
-            <FeaturesMenu show={isOpen} />
             {/* {isOpen && ()} */}
         </nav>
 
