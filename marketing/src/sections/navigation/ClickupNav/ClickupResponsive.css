@@ -1,0 +1,77 @@
+@media only screen and (max-width:415px) {
+    .clickup-navigation>a {
+        display: none;
+    }
+
+    .clickup-navigation>div>.log-btn-nav {
+        display: none;
+    }
+
+    .clickup-navigation>div>.sign-btn-nav {
+        font-size: 0.8rem;
+        background-color: white;
+        color: blueviolet;
+        border: 1px solid blueviolet;
+        padding: 8px;
+        border-radius: 8px;
+        margin-top: 15px;
+        margin-left: 160px;
+    }
+
+    .clickup-navigation div:first-child h1 {
+        font-size: 1.1rem;
+    }
+
+    .clickup-navigation div:first-child img {
+        height: 20px;
+        width: 20px;
+    }
+
+    .clickup-navigation {
+        align-items: center;
+        margin: 0;
+        place-items: center;
+        padding: 8px;
+        border-bottom: none;
+    }
+
+    .open-hamburger .slice-2 {
+        opacity: 0;
+        height: 0;
+    }
+
+    .open-hamburger .slice-1 {
+        transform: rotate(45deg)translate(10px);
+    }
+
+    .open-hamburger .slice-3 {
+        transform: rotate(-45deg)translate(10px);
+    }
+
+    .mobile-nav-links {
+        display: flex;
+        flex-direction: column;
+        gap: 20px 0;
+        padding: 20px;
+        background-color: lightgray;
+        transition: transform .5s ease-in;
+        z-index: 1;
+    }
+
+    .mobile-nav-links>a {
+        text-decoration: none;
+    }
+
+    .open-mobile-nav {
+        transform: translateX(140%);
+    }
+
+    .clickup-navigation .hamburger {
+        display: block;
+    }
+
+    .mobile-nav-links>a {
+        display: block;
+    }
+
+}

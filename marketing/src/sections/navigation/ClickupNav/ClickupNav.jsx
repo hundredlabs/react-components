@@ -1,5 +1,7 @@
 import './ClickupNav.css';
 import React from 'react';
+import './ClickupResponsive.css';
+
 const ProductBar = () => (
     <div className="menuList">
         <div>
@@ -155,38 +157,52 @@ const ProductBar = () => (
         </div>
     </div>
 )
+
 const NavclickUp = ({ image }) => {
     const [isOpen, modifystate] = React.useState(false)
+    const [isHamburger, setHamburger] = React.useState(false)
+
     return (
-        <nav className='clickup-navigation'>
-            <div>
-                <img src={image} alt="design" />
-                <h1>ClickUp</h1>
-            </div>
-
-            <a href="" className={`features ${isOpen ? 'open-feature' : ''}`} onMouseOver={(e) => {
-                e.preventDefault();
-                modifystate(true)
-            }} onMouseLeave={(e) => modifystate(false)}>
-                <div >
-                    <span className='product-menu'>
-                        <div>Product</div>
-                        <img className={isOpen ? "open" : "close"} src='../imgClick/arrow.svg' alt="" />
-                    </span>
-                    {isOpen && (<ProductBar />)}
+        <>
+            <nav className='clickup-navigation'>
+                <div>
+                    <img src={image} alt="design" />
+                    <h1>ClickUp</h1>
                 </div>
-            </a>
-            <a href="#sub">Solution</a>
-            <a href="#sub">Learn</a>
-            <a href="#sub">Pricing</a>
-            <a href="#">Enterprises</a>
-            <a className='contact' href="#">Contact Sales</a>
-            <div className='buttons'>
-                <button className='sign-btn-nav'>Sign Up</button>
-                <button className='log-btn-nav'>Log in</button>
+                <a href="" className={`features ${isOpen ? 'open-feature' : ''}`} onMouseOver={(e) => {
+                    e.preventDefault();
+                    modifystate(true)
+                }} onMouseLeave={(e) => modifystate(false)}>
+                    <div >
+                        <span className='product-menu'>
+                            <div>Product</div>
+                            <img className={isOpen ? "open" : "close"} src='../imgClick/arrow.svg' alt="" />
+                        </span>
+                        {isOpen && (<ProductBar />)}
+                    </div>
+                </a>
+                <a href="#sub">Solution</a>
+                <a href="#sub">Learn</a>
+                <a href="#sub">Pricing</a>
+                <a href="#">Enterprises</a>
+                <a className='contact' href="#">Contact Sales</a>
+                <div className='buttons'>
+                    <button className='sign-btn-nav'>Sign Up</button>
+                    <button className='log-btn-nav'>Log in</button>
+                </div>
+                <div className={`hamburger ${isHamburger ? "open-hamburger" : "close-hamburger"}`} onClick={() => setHamburger(!isHamburger)} >
+                    <div className="slice slice-1"></div>
+                    <div className="slice slice-2"></div>
+                    <div className="slice slice-3"></div>
+                </div>
+            </nav >
+            <div className={`mobile-nav-links ${isHamburger ? "open-mobile-nav" : "close-mobile-nav"}`}>
+                <a href="#sub">Solution</a>
+                <a href="#sub">Learn</a>
+                <a href="#sub">Pricing</a>
+                <a href="#">Enterprises</a>
             </div>
-        </nav >
-
+        </>
     );
 }
 export default NavclickUp;
