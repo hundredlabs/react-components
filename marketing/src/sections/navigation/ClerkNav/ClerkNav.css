@@ -34,8 +34,8 @@
     left: 20%;
     background-color: white;
     border-radius: 20px;
-    margin-top: 0px;
     height: 1050px;
+    transition: 0.4s;
 }
 
 .menuList>div {
@@ -43,7 +43,7 @@
 }
 
 .feature-list:hover {
-    background-color: lightgray;
+    background-color: rgba(0, 0, 0, .04);
     border-radius: 8px;
 }
 
@@ -98,13 +98,15 @@
 .feature-list {
     display: flex;
     font-size: 1.4rem;
+    padding-top: 0px;
 }
 
 .feature-list img {
-    margin-right: 20px;
-    margin-top: 25px;
+    padding: 15px;
+
 }
 
 .feature-list p {
-    margin-bottom: 0px;
+    margin-bottom: 0;
+    margin: 15px;
 }
