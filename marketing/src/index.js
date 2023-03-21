@@ -1,14 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./index.css";
-import App from "./App";
+import TrueworkNav from "./sections/hero/navigations/TrueworkNav/TrueWork";
 import reportWebVitals from "./reportWebVitals";
-import OmnisendNav from "./sections/navigation/OmnisendNav/OmnisendNav";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <OmnisendNav />
+    <TrueworkNav />
   </React.StrictMode>
 );
 
