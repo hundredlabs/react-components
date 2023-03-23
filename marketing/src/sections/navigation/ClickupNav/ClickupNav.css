@@ -1,40 +1,41 @@
-.clickup-navigation {
+.nav-clickup {
     display: flex;
     text-align: center;
     justify-content: space-between;
     margin-left: 50px;
     border-bottom: 1px solid #EEE;
-    position: relative;
-    z-index: 999;
 }
 
-.clickup-navigation h1 {
+.nav-clickup h1 {
     font-size: 3.8rem;
     font-weight: bold;
 }
 
-.clickup-navigation>div>img {
-    margin: 0px 10px;
-    height: 70px;
+.nav-clickup>div>img {
+    margin: 0px 20px;
+    height: 60px;
     width: 60px;
 }
 
-.clickup-navigation>div:first-child {
+.nav-clickup>div:first-child {
     display: flex;
     align-items: center;
 }
 
-.clickup-navigation>a {
+.nav-clickup>a {
     color: black;
     text-decoration: none;
     align-items: center;
     font-weight: 700;
-    margin-top: 75px;
     font-size: 1.9rem;
 }
 
+.nav-clickup:first-child a {
+    margin-top: 75px;
+}
 
-.clickup-navigation button {
+
+.nav-clickup button {
     align-items: center;
     border-radius: 12px;
     margin-top: 40px;
@@ -43,7 +44,7 @@
     margin-top: 65px;
 }
 
-.sign-btn-nav {
+.nav-clickup>div>.sign-btn-nav {
     background-color: #7c68ed;
     color: white;
     font-size: 1.5rem;
@@ -52,36 +53,39 @@
 }
 
 
-.log-btn-nav {
+.nav-clickup>div>.log-btn-nav {
     font-size: 1.5rem;
     font-weight: 700;
     margin-right: 200px;
 }
 
-.buttons {
-    margin: 0px 10px;
-}
 
-.menuList {
+
+.product-menu-List {
     position: absolute;
     left: 0px;
     right: 0px;
-    top: 185px;
     transition: 0.4s;
     transform: translateX(0);
-    margin: 0 50px;
+    margin: 55px;
+    margin-top: 58px;
     border-radius: 8px;
     background-color: white;
     display: flex;
 }
 
-
-.contact {
+.nav-clickup>a.contact {
     margin-left: 200px;
 }
 
 .menuBar {
     display: flex;
+    margin-top: 20px;
+}
+
+.menuBar>:hover {
+    background-color: aquamarine;
+    border-radius: 12px;
 }
 
 
@@ -125,7 +129,7 @@
 
 .platform-menu-list p {
     color: gray;
-    margin-left: 12px;
+    margin-left: 15px;
 }
 
 .platform-list {
@@ -147,7 +151,7 @@
     margin-top: 20px;
 }
 
-.menuList button {
+.product-menu-List button {
     font-size: 1.8rem;
     font-weight: 600;
     border-radius: 12px;
@@ -194,7 +198,7 @@
     margin-top: -20px;
 }
 
-.menuList h1 {
+.product-menu-List h1 {
     text-align: left;
     font-size: 2.1rem;
     font-weight: 500;
@@ -236,10 +240,13 @@
 
 .product-menu {
     display: flex;
+    text-align: center;
 }
 
-.product-menu>img {
-    margin-left: 20px;
+
+.product-menu img {
+    height: 30px;
+    margin: 10px;
 }
 
 .open {
@@ -247,21 +254,21 @@
 }
 
 .open-feature {
-    border-bottom: 4px solid blue;
+    border-bottom: 6px solid blue;
 }
 
-.clickup-navigation .hamburger .slice {
+.nav-clickup .hamburger .slice {
     height: 3px;
     width: 30px;
     background-color: black;
     cursor: pointer;
 }
 
-.clickup-navigation .hamburger .slice:not(:last-child) {
+.nav-clickup .hamburger .slice:not(:last-child) {
     margin-bottom: 4px;
 }
 
-.clickup-navigation .hamburger {
+.nav-clickup .hamburger {
     display: none;
 }
 
