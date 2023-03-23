@@ -207,4 +207,3 @@ const NavclickUp = ({ image }) => {
 }
 export default NavclickUp;
 
-
