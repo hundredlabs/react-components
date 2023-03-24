@@ -52,14 +52,11 @@
     margin: 10px;
 }
 
-
 .nav-clickup>div>.log-btn-nav {
     font-size: 1.5rem;
     font-weight: 700;
     margin-right: 200px;
 }
-
-
 
 .product-menu-List {
     position: absolute;
@@ -78,12 +75,12 @@
     margin-left: 200px;
 }
 
-.menuBar {
+.product-menu-List .menuBar {
     display: flex;
     margin-top: 20px;
 }
 
-.menuBar>:hover {
+.product-menu-List .menuBar>:hover {
     background-color: aquamarine;
     border-radius: 12px;
 }
@@ -110,7 +107,7 @@
     margin: 15px;
 }
 
-.hr {
+.list-menu-hr {
     color: rgb(255, 252, 252);
     margin-left: 70px;
     margin-right: 30px;
@@ -145,7 +142,7 @@
 }
 
 
-.img-list {
+.product-menu-List .img-list {
     height: 60px;
     width: 60px;
     margin-top: 20px;
@@ -175,7 +172,7 @@
     font-size: 1.9rem;
 }
 
-.img-header {
+.product-menu-List .img-header {
     height: 40px;
     width: 30px;
     margin: 5px;

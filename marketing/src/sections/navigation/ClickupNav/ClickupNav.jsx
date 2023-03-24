@@ -12,7 +12,7 @@ const ProductBar = () => (
             <div className='header'>
                 <div className='header-logo'>
 
-                    <img className='img-header' src='./img/sections/ClickupNav/click.png' alt="logo" />
+                    <img className='img-header' src='./img/sections/navigations/ClickupNav/click.png' alt="logo" />
                     <p4>ClichUp</p4><p2>3.0</p2>
                 </div>
                 <div className='header-sentence'>
@@ -22,7 +22,7 @@ const ProductBar = () => (
             <div className='menuBar'>
                 <div className='product-menu-list'>
                     <div>
-                        <img className='img-list' src='./img/sections/ClickupNav/task.svg' alt="Tash-logo" />
+                        <img className='img-list' src='./img/sections/navigations/ClickupNav/task.svg' alt="Tash-logo" />
                     </div>
                     <div>
                         <h1>Tasks</h1>
@@ -32,7 +32,7 @@ const ProductBar = () => (
                 </div>
                 <div className='product-menu-list'>
                     <div>
-                        <img className='img-list' src='./img/sections/ClickupNav/doc.svg' alt="Tash-logo" />
+                        <img className='img-list' src='./img/sections/navigations/ClickupNav/doc.svg' alt="Tash-logo" />
                     </div>
                     <div>
                         <h1>Docs</h1>
@@ -43,7 +43,7 @@ const ProductBar = () => (
                 </div>
                 <div className='product-menu-list'>
                     <div>
-                        <img className='img-list' src='./img/sections/ClickupNav/goal.svg' alt="Tash-logo" />
+                        <img className='img-list' src='./img/sections/navigations/ClickupNav/goal.svg' alt="Tash-logo" />
                     </div>
                     <div>
                         <h1>Goals</h1>
@@ -56,7 +56,7 @@ const ProductBar = () => (
             <div className='menuBar'>
                 <div className='product-menu-list'>
                     <div>
-                        <img className='img-list' src='./img/sections/ClickupNav/white.svg' alt="Tash-logo" />
+                        <img className='img-list' src='./img/sections/navigations/ClickupNav/white.svg' alt="Tash-logo" />
                     </div>
                     <div>
                         <h1>WhiteBoard</h1>
@@ -67,7 +67,7 @@ const ProductBar = () => (
                 </div>
                 <div className='product-menu-list'>
                     <div>
-                        <img className='img-list' src='./img/sections/ClickupNav/dash.svg' alt="Tash-logo" />
+                        <img className='img-list' src='./img/sections/navigations/ClickupNav/dash.svg' alt="Tash-logo" />
                     </div>
                     <div>
                         <h1>Dashboard</h1>
@@ -77,7 +77,7 @@ const ProductBar = () => (
                 </div>
                 <div className='product-menu-list'>
                     <div>
-                        <img className='img-list' src='./img/sections/ClickupNav/chat.svg' alt="Tash-logo" />
+                        <img className='img-list' src='./img/sections/navigations/ClickupNav/chat.svg' alt="Tash-logo" />
                     </div>
                     <div>
                         <h1>Chat</h1>
@@ -88,13 +88,13 @@ const ProductBar = () => (
             </div>
             <button>See All Features    <div className='btnP'>→</div></button>
         </div>
-        <hr className='hr' />
+        <hr className='list-menu-hr' />
         <div className='platform-menu'>
             <h1 className='platform-h1'>PLATFORM</h1>
             <div className='platform-menu-list'>
                 <div className='platform-list'>
                     <div>
-                        <img className='img-list' src='./img/sections/ClickupNav/temp.svg' alt="Tash-logo" />
+                        <img className='img-list' src='./img/sections/navigations/ClickupNav/temp.svg' alt="Tash-logo" />
                     </div>
                     <div>
                         <h1>Templates</h1>
@@ -104,7 +104,7 @@ const ProductBar = () => (
                 </div>
                 <div className='platform-list'>
                     <div>
-                        <img className='img-list' src='./img/sections/ClickupNav/click.svg' alt="Tash-logo" />
+                        <img className='img-list' src='./img/sections/navigations/ClickupNav/click.svg' alt="Tash-logo" />
                     </div>
                     <div>
                         <h1>ClickApps</h1>
@@ -116,7 +116,7 @@ const ProductBar = () => (
             <div className='platform-menu-list'>
                 <div className='platform-list'>
                     <div>
-                        <img className='img-list' src='./img/sections/ClickupNav/inr.svg' alt="Tash-logo" />
+                        <img className='img-list' src='./img/sections/navigations/ClickupNav/inr.svg' alt="Tash-logo" />
                     </div>
                     <div>
                         <h1>Integrations</h1>
@@ -126,7 +126,7 @@ const ProductBar = () => (
                 </div>
                 <div className='platform-list'>
                     <div>
-                        <img className='img-list' src='./img/sections/ClickupNav/view.svg' alt="Tash-logo" />
+                        <img className='img-list' src='./img/sections/navigations/ClickupNav/view.svg' alt="Tash-logo" />
                     </div>
                     <div>
                         <h1>Views</h1>
@@ -138,7 +138,7 @@ const ProductBar = () => (
             <div className='platform-menu-list'>
                 <div className='platform-list'>
                     <div>
-                        <img className='img-list' src='./img/sections/ClickupNav/hie.svg' alt="Tash-logo" />
+                        <img className='img-list' src='./img/sections/navigations/ClickupNav/hie.svg' alt="Tash-logo" />
                     </div>
                     <div>
                         <h1>Hierarchy</h1>
@@ -148,7 +148,7 @@ const ProductBar = () => (
                 </div>
                 <div className='platform-list'>
                     <div>
-                        <img className='img-list' src='./img/sections/ClickupNav/auto.svg'
+                        <img className='img-list' src='./img/sections/navigations/ClickupNav/auto.svg'
                             alt="Tash-logo" />
                     </div>
                     <div>
@@ -172,7 +172,7 @@ const NavclickUp = () => {
         <>
             <nav className='nav-clickup'>
                 <div>
-                    <img src='./img/sections/ClickupNav/click.png' alt="design" />
+                    <img src='./img/sections/navigations/ClickupNav/click.png' alt="design" />
                     <h1>ClickUp</h1>
                 </div>
                 <a href="" className={`features ${isOpen ? 'open-feature' : ''}`}
@@ -184,7 +184,7 @@ const NavclickUp = () => {
                         <span className='product-menu'>
                             <div>Product</div>
                             <img className={isOpen ? "open" : "close"}
-                                src='./img/sections/ClickupNav/arrow.svg' alt="" />
+                                src='./img/sections/navigations/ClickupNav/arrow.svg' alt="" />
                         </span>
                         {isOpen && (<ProductBar />)}
                     </div>
@@ -212,12 +212,12 @@ const NavclickUp = () => {
                     }}><p8>Product</p8>
                         <img onClick={() => {
                             setArrowOpen(!isArrowOpen)
-                        }} className={isArrowOpen ? "open" : "close"} src='./img/sections/ClickupNav/arrow.svg' alt="" />
+                        }} className={isArrowOpen ? "product-open-arrow" : "close"} src='./img/sections/navigations/ClickupNav/arrow.svg' alt="" />
                         <div className={`mob-product-menu-List ${isArrowOpen ? "open-menu" : "close-menu"}`}>
-                            x``                     <span className='newTag'>new</span>
+                            <span className='newTag'>new</span>
                             <div className='mob-header'>
                                 <div className='mob-header-logo'>
-                                    <img className='img-header' src='./img/sections/ClickupNav/click.png' alt="logo" />
+                                    <img className='img-header' src='./img/sections/navigations/ClickupNav/click.png' alt="logo" />
                                     <p4>ClichUp</p4><p2>3.0</p2>
                                 </div>
                                 <div className='mob-header-sentence'>
@@ -231,7 +231,7 @@ const NavclickUp = () => {
                             <>
                                 <div key={i} className={`sub-nav-list ${isSubNavActive ? "sub-list-open" : "sub-list-close"}`}>
                                     <div className='mob-product-list' >
-                                        <img className='mob-img-list' src={t.img} alt="Tash-logo" />
+                                        <img className='mob-img-list' src={t.img} alt="task" />
                                         <h1>{t.title}</h1>
                                     </div>
                                     <hr />

@@ -1,31 +1,31 @@
 const productSubList = [
     {
         title: "Taskbar",
-        img: './img/sections/ClickupNav/task.svg'
+        img: './img/sections/navigations/ClickupNav/task.svg'
     },
     {
         title: "Docs",
-        img: './img/sections/ClickupNav/doc.svg'
+        img: './img/sections/navigations/ClickupNav/doc.svg'
     },
     {
         title: "Goals",
-        img: './img/sections/ClickupNav/goal.svg'
+        img: './img/sections/navigations/ClickupNav/goal.svg'
     },
     {
         title: "Whiteboard",
-        img: './img/sections/ClickupNav/white.svg'
+        img: './img/sections/navigations/ClickupNav/white.svg'
     },
     {
         title: "Dashboard",
-        img: './img/sections/ClickupNav/dash.svg'
+        img: './img/sections/navigations/ClickupNav/dash.svg'
     },
     {
         title: "Chat",
-        img: './img/sections/ClickupNav/chat.svg'
+        img: './img/sections/navigations/ClickupNav/chat.svg'
     },
     {
         title: "Template",
-        img: './img/sections/ClickupNav/temp.svg'
+        img: './img/sections/navigations/ClickupNav/temp.svg'
     },
 
 
