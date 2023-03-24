@@ -58,7 +58,7 @@
     margin-right: 200px;
 }
 
-.product-menu-List {
+.nav-clickup .product-menu-List {
     position: absolute;
     left: 0px;
     right: 0px;
@@ -75,31 +75,30 @@
     margin-left: 200px;
 }
 
-.product-menu-List .menuBar {
+.nav-clickup .product-menu-List .menuBar {
     display: flex;
     margin-top: 20px;
 }
 
-.product-menu-List .menuBar>:hover {
+.nav-clickup .product-menu-List .menuBar>:hover {
     background-color: aquamarine;
     border-radius: 12px;
 }
 
 
-.product-menu-list {
+.nav-clickup .product-menu-list {
     display: flex;
     font-size: 1.2rem;
     padding: 40px 50px;
     text-align: left;
 }
 
-.platform-menu-list {
+.nav-clickup .platform-menu-list {
     display: flex;
     font-size: 1.2rem;
     justify-content: space-between;
     padding: 1px;
 }
-
 
 .product-menu-list h1 {
     font-size: 2.2rem;
@@ -107,13 +106,13 @@
     margin: 15px;
 }
 
-.list-menu-hr {
+.nav-clickup .list-menu-hr {
     color: rgb(255, 252, 252);
     margin-left: 70px;
     margin-right: 30px;
 }
 
-.product-menu-list p {
+.nav-clickup .product-menu-list p {
     color: gray;
 }
 
@@ -124,31 +123,31 @@
 }
 
 
-.platform-menu-list p {
+.nav-clickup .platform-menu-list p {
     color: gray;
     margin-left: 15px;
 }
 
-.platform-list {
+.nav-clickup .platform-list {
     display: flex;
 }
 
-.platform-menu-list>div {
+.nav-clickup .platform-menu-list>div {
     margin: 30px 50px;
 }
 
-.menuBar p {
+.nav-clickup .menuBar p {
     margin: 15px;
 }
 
 
-.product-menu-List .img-list {
+.nav-clickup .product-menu-List .img-list {
     height: 60px;
     width: 60px;
     margin-top: 20px;
 }
 
-.product-menu-List button {
+.nav-clickup .product-menu-List button {
     font-size: 1.8rem;
     font-weight: 600;
     border-radius: 12px;
@@ -157,34 +156,34 @@
     margin-left: 20px;
 }
 
-.header-logo {
+.nav-clickup .header-logo {
     display: flex;
     align-items: center;
 }
 
-.header-logo p4 {
+.nav-clickup .header-logo p4 {
     color: white;
     font-size: 2.2rem;
 }
 
-.header-logo p2 {
+.nav-clickup .header-logo p2 {
     color: #ff41c9;
     font-size: 1.9rem;
 }
 
-.product-menu-List .img-header {
+.nav-clickup .product-menu-List .img-header {
     height: 40px;
     width: 30px;
     margin: 5px;
 }
 
-.header-sentence {
+.nav-clickup .header-sentence {
     color: white;
     text-align: center;
     font-size: 2.1rem;
 }
 
-.header {
+.nav-clickup .header {
     background: linear-gradient(108.42deg, #2a2e34 59.96%, #ff41c9 116.89%);
     width: 1250px;
     border-radius: 12px;
@@ -195,14 +194,14 @@
     margin-top: -20px;
 }
 
-.product-menu-List h1 {
+.nav-clickup .product-menu-List h1 {
     text-align: left;
     font-size: 2.1rem;
     font-weight: 500;
 }
 
 
-.newTag {
+.nav-clickup .newTag {
     background-color: #2b2f35;
     border-radius: 8px;
     padding: 1px 10px;
@@ -210,47 +209,47 @@
     margin-right: 1100px;
 }
 
-.header-sentence p3 {
+.nav-clickup .header-sentence p3 {
     color: #ff41c9;
     font-size: 2.3rem;
 }
 
-.btnP {
+.nav-clickup .btnP {
     color: #7c68ed;
     margin-left: 15px;
     margin-bottom: 8px;
     font-size: 3.1rem;
 }
 
-.platform {
+.nav-clickup .platform {
     display: flex;
 }
 
-.platform-h1 {
+.nav-clickup .platform-h1 {
     margin-left: 60px;
     margin-bottom: 0px;
 }
 
-.main {
+.nav-clickup .main {
     justify-content: space-between;
 }
 
-.product-menu {
+.nav-clickup .product-menu {
     display: flex;
     text-align: center;
 }
 
 
-.product-menu img {
+.nav-clickup .product-menu img {
     height: 30px;
     margin: 10px;
 }
 
-.open {
+.nav-clickup .open {
     rotate: 180deg;
 }
 
-.open-feature {
+.nav-clickup .open-feature {
     border-bottom: 6px solid blue;
 }
 
