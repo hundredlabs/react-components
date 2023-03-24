@@ -214,7 +214,7 @@ const NavclickUp = () => {
                             setArrowOpen(!isArrowOpen)
                         }} className={isArrowOpen ? "open" : "close"} src='./img/sections/ClickupNav/arrow.svg' alt="" />
                         <div className={`mob-product-menu-List ${isArrowOpen ? "open-menu" : "close-menu"}`}>
-                            <span className='newTag'>new</span>
+                            x``                     <span className='newTag'>new</span>
                             <div className='mob-header'>
                                 <div className='mob-header-logo'>
                                     <img className='img-header' src='./img/sections/ClickupNav/click.png' alt="logo" />

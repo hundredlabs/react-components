@@ -8,7 +8,7 @@ import logo from './click.png'
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <NavclickUp image={logo} />
+    <NavclickUp />
 
   </React.StrictMode>
 );
