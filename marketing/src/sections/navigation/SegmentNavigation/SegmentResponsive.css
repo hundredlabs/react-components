@@ -1,0 +1,106 @@
+@media only screen and (max-width:415px) {
+    .segment-Navigation .features>a {
+        display: none;
+    }
+
+    .segment-Navigation>.Nav-Btn {
+        display: none;
+    }
+
+    .segment-Navigation {
+        padding: 5px 5px;
+        margin: 5px;
+    }
+
+    .segment-Navigation .hamburger {
+        position: relative;
+        display: block;
+        margin-right: 12px;
+    }
+
+    .segment-Navigation .open-hamburger .slice-1 {
+        transform: rotate(45deg)translate(10px);
+
+    }
+
+    .segment-Navigation .open-hamburger .slice-3 {
+        transform: rotate(-45deg)translate(10px);
+
+    }
+
+    .segment-Navigation .open-hamburger .slice-2 {
+        visibility: hidden;
+    }
+
+    .segment-Navigation .hamburger .slice {
+        transition: transform 0.6s;
+    }
+
+    .mobile-product-list {
+        position: absolute;
+        z-index: 1;
+        transition: transform 0.6s ease-in;
+        margin: 10px 10px;
+        height: 1000px;
+    }
+
+    .mobile-product-list>a {
+        text-decoration: none;
+        margin: 30px 0px;
+        color: black;
+        font-weight: 500;
+        display: flex;
+    }
+
+    .mobile-product-list>div>span {
+        font-weight: 500;
+
+    }
+
+    .product-arrow-menu {
+        float: right;
+        margin-left: 310px;
+
+    }
+
+    .sub-product-deactive {
+        transform-origin: left center;
+        transform: translateX(580%);
+        transition: transform 0.6s;
+    }
+
+    .open-arror {
+        rotate: 90deg;
+    }
+
+    .close-product-list {
+        transform: translateX(-140%);
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+        transition: transform 0.6s ease-in;
+    }
+
+
+    .inside-product-menu-list>div>div>img {
+        height: 30px;
+        width: 30px;
+        margin-right: 10px;
+    }
+
+    .inside-product-menu-list>div>div>h1 {
+        font-size: 1.2rem;
+        font-weight: 300;
+    }
+
+    .inside-product-menu-list>div>div {
+        display: flex;
+        align-items: center;
+    }
+
+    .mobile-product-list {
+        display: block;
+    }
+
+
+}
