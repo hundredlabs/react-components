@@ -1,0 +1,127 @@
+@media only screen and (max-width:415px) {
+    .clerk-navigation .nav-a-tag>a {
+        display: none;
+    }
+
+    .clerk-navigation .nav-button>button {
+        display: none;
+    }
+
+    .clerk-navigation .hamburger {
+        display: block;
+    }
+
+    .clerk-navigation .clerk-logo {
+        margin: 5px 20px;
+        padding: 0px 0px;
+    }
+
+    .clerk-navigation .hamburger {
+        display: block;
+        position: relative;
+    }
+
+
+    .clerk-navigation .hamburger {
+        margin: 30px 10px;
+        padding: 0px 10px;
+    }
+
+    .clerk-navigation .open-hamburger .slice-2 {
+        height: 0;
+        opacity: 0;
+        display: none;
+    }
+
+
+    .clerk-navigation .open-hamburger .slice-1 {
+        transform: rotate(45deg)translate(5px);
+
+    }
+
+    .clerk-navigation .open-hamburger .slice-3 {
+        transform: rotate(-45deg)translate(5px);
+
+    }
+
+    .clerk-navigation .hamburger .slice {
+        transition: transform 0.6s;
+    }
+
+    .close-arrow {
+        rotate: 90deg;
+    }
+
+    .sub-mob-list {
+        display: flex;
+        transition: 0.6s;
+    }
+
+    .close-sub-list {
+        position: relative;
+        height: 0;
+        display: none;
+        visibility: 0;
+    }
+
+    .sub-mob-list>div>img {
+        height: 20px;
+        width: 20px;
+        margin-right: 10px;
+        margin-top: 5px;
+        margin-bottom: 0;
+    }
+
+    .sub-mob-list>div>h1 {
+        font-size: 1.1rem;
+        font-weight: 300;
+        margin-top: 4px;
+        margin-bottom: 0;
+    }
+
+    .sub-mob-list>div {
+        display: flex;
+        align-items: center;
+        margin-left: 20px;
+    }
+
+    .mobile-nav-list>div>span {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .mobile-nav-list>div>span>p {
+        margin-left: 20px;
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+
+
+    .mobile-nav-list {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 60px;
+        transition: transform .6s ease-in;
+        z-index: 1;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 400px;
+        height: 900px;
+    }
+
+    .close-sub-menu {
+        transform-origin: left center;
+        transform: translateX(340%);
+
+    }
+
+    .mobile-nav-list>a {
+        text-decoration: none;
+        margin: 0px 20px;
+        color: black;
+    }
+
+
+}
