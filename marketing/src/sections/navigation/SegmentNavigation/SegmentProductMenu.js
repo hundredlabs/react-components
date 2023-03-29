@@ -1,4 +1,4 @@
-const SegmentProductMenu = [
+const segmentProductMenu = [
     {
         img: './img/sections/navigations/SegmentNav/c3.svg',
         title: "Marketing"
@@ -28,4 +28,4 @@ const SegmentProductMenu = [
         title: "Twilio Engage"
     }
 ]
-export default SegmentProductMenu;
+export default segmentProductMenu;

@@ -1,4 +1,4 @@
-.segment-Navigation {
+.segment-navigation {
     display: flex;
     justify-content: space-between;
     padding: 50px 40px;
@@ -6,25 +6,25 @@
     align-items: center;
 }
 
-.segment-Navigation>div:first-child {
+.segment-navigation>div:first-child {
     display: flex;
     align-items: center;
 }
 
-.segment-Navigation .heading>img {
+.segment-navigation .heading>img {
     margin-right: 10px;
 }
 
-.segment-Navigation img {
+.segment-navigation img {
     height: 40px;
     width: 30px;
 }
 
-.segment-Navigation .features {
+.segment-navigation .features {
     display: flex;
 }
 
-.segment-Navigation .features>a {
+.segment-navigation .features>a {
     font-weight: 500;
     color: black;
     margin: 0px 60px;
@@ -33,7 +33,7 @@
     font-size: 1.6rem;
 }
 
-.segment-Navigation .Nav-Btn>a {
+.segment-navigation .nav-btn>a {
     font-weight: 500;
     color: black;
     margin: 0px 60px;
@@ -42,7 +42,7 @@
     font-size: 1.6rem;
 }
 
-.segment-Navigation .Nav-Btn>button {
+.segment-navigation .nav-btn>button {
     background-color: blue;
     color: white;
     padding: 20px 20px;
@@ -52,7 +52,7 @@
     border-radius: 12px;
 }
 
-.segment-Navigation .menuList {
+.segment-navigation .menuList {
     position: absolute;
     left: 0px;
     right: 0px;
@@ -75,13 +75,13 @@
     display: flex;
 }
 
-.segment-Navigation .first-menu-list h1 {
+.segment-navigation .first-menu-list h1 {
     font-size: 1.5rem;
     margin-bottom: 0;
     font-weight: 500;
 }
 
-.segment-Navigation .product-list {
+.segment-navigation .product-list {
     margin-top: 70px;
     margin-right: 100px;
 }
@@ -153,27 +153,27 @@
     display: flex;
 }
 
-.segment-Navigation .menuList .segment-menu-list>span>:hover {
+.segment-navigation .menuList .segment-menu-list>span>:hover {
     color: aqua;
 }
 
-.segment-Navigation .menuList .feature-menu-list>span>:hover {
+.segment-navigation .menuList .feature-menu-list>span>:hover {
     color: aqua;
 }
 
-.segment-Navigation .hamburger .slice:not(:last-child) {
+.segment-navigation .hamburger .slice:not(:last-child) {
     margin-bottom: 4px;
     ;
 }
 
-.segment-Navigation .hamburger .slice {
+.segment-navigation .hamburger .slice {
     height: 3px;
     width: 30px;
     background-color: black;
     cursor: pointer;
 }
 
-.segment-Navigation .hamburger {
+.segment-navigation .hamburger {
     display: none;
 }
 

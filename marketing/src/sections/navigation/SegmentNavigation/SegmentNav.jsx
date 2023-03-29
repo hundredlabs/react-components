@@ -1,7 +1,7 @@
 import './SegmentNav.css';
 import React from 'react';
 import './SegmentResponsive.css';
-import SegmentProductMenu from './SegmentProductMenu';
+import segmentProductMenu from './SegmentProductMenu';
 
 
 const ProductBar = () => (
@@ -13,21 +13,21 @@ const ProductBar = () => (
                     <img src="./img/sections/navigations/SegmentNav/c1.svg" alt="" />
                     <span>
                         <h1>Marketing</h1>
-                        <p>Personalized and real-time customer experience</p>
+                        <p>Lorem Ipsum is simply dummy text of the printing </p>
                     </span>
                 </div>
                 <div className='segment-menu-list'>
                     <img src="./img/sections/navigations/SegmentNav/c2.svg" alt="" />
                     <span>
                         <h1>Product</h1>
-                        <p>Personalized and real-time customer experience</p>
+                        <p>It is a long established fact that a reader</p>
                     </span>
                 </div>
                 <div className='segment-menu-list'>
                     <img src="./img/sections/navigations/SegmentNav/c3.svg" alt="" />
                     <span>
                         <h1>Engineering</h1>
-                        <p>Personalized and real-time customer experience</p>
+                        <p>It has survived not only five centuries</p>
                     </span>
                 </div>
                 <div className='product-list'>
@@ -36,14 +36,14 @@ const ProductBar = () => (
                         <img src="./img/sections/navigations/SegmentNav/logo.svg" alt="" />
                         <span>
                             <h1>Connections</h1>
-                            <p>Personalized and real-time customer experience</p>
+                            <p>Lorem Ipsum is simply dummy text of the printing </p>
                         </span>
                     </div>
                     <div className='segment-menu-list'>
                         <img src="./img/sections/navigations/SegmentNav/c1.svg" alt="" />
                         <span>
                             <h1>Protocols</h1>
-                            <p>Personalized and real-time customer experience</p>
+                            <p>It is a long established fact that a reader</p>
                         </span>
                     </div>
                     <div className='segment-menu-list'>
@@ -57,7 +57,7 @@ const ProductBar = () => (
                         <img src="./img/sections/navigations/SegmentNav/c3.svg" alt="" />
                         <span>
                             <h1>Twilio Engage</h1>
-                            <p>Personalized and real-time customer experience</p>
+                            <p>Lorem Ipsum is simply dummy text of the printing </p>
                         </span>
                     </div>
                 </div>
@@ -68,42 +68,42 @@ const ProductBar = () => (
                     <img src="./img/sections/navigations/SegmentNav/logo.svg" alt="" />
                     <span>
                         <h1>Twilio Engage</h1>
-                        <p>Personalized and real-time customer experience</p>
+                        <p>It is a long established fact that a reader</p>
                     </span>
                 </div>
                 <div className='feature-menu-list'>
                     <img src="./img/sections/navigations/SegmentNav/c1.svg" alt="" />
                     <span>
                         <h1>Twilio Engage</h1>
-                        <p>Personalized and real-time customer experience</p>
+                        <p>Lorem Ipsum is simply dummy text of the printing </p>
                     </span>
                 </div>
                 <div className='feature-menu-list'>
                     <img src="./img/sections/navigations/SegmentNav/c2.svg" alt="" />
                     <span>
                         <h1>Twilio Engage</h1>
-                        <p>Personalized and real-time customer experience</p>
+                        <p>It has survived not only five centuries</p>
                     </span>
                 </div>
                 <div className='feature-menu-list'>
                     <img src="./img/sections/navigations/SegmentNav/c3.svg" alt="" />
                     <span>
                         <h1>Twilio Engage</h1>
-                        <p>Personalized and real-time customer experience</p>
+                        <p>It is a long established fact that a reader</p>
                     </span>
                 </div>
                 <div className='feature-menu-list'>
                     <img src="./img/sections/navigations/SegmentNav/logo.svg" alt="" />
                     <span>
                         <h1>Twilio Engage</h1>
-                        <p>Personalized and real-time customer experience</p>
+                        <p>Lorem Ipsum is simply dummy text of the printing </p>
                     </span>
                 </div>
                 <div className='feature-menu-list'>
                     <img src="./img/sections/navigations/SegmentNav/c1.svg" alt="" />
                     <span>
                         <h1>Twilio Engage</h1>
-                        <p>Personalized and real-time customer experience</p>
+                        <p>It has survived not only five centuries</p>
                     </span>
                 </div>
                 <div className='feature-menu-list'>
@@ -118,14 +118,14 @@ const ProductBar = () => (
                     <img src="./img/sections/navigations/SegmentNav/c3.svg" alt="" />
                     <span>
                         <h1>Twilio Engage</h1>
-                        <p>Personalized and real-time customer experience</p>
+                        <p>Lorem Ipsum is simply dummy text of the printing </p>
                     </span>
                 </div>
                 <div className='feature-menu-list'>
                     <img src="./img/sections/navigations/SegmentNav/c1.svg" alt="" />
                     <span>
                         <h1>Twilio Engage</h1>
-                        <p>Personalized and real-time customer experience</p>
+                        <p>It has survived not only five centuries</p>
                     </span>
                 </div>
             </div>
@@ -141,7 +141,7 @@ const SegmentNav = () => {
     const [isProductMenu, setProductMenu] = React.useState(false)
     return (
         <>
-            <nav className='segment-Navigation'>
+            <nav className='segment-navigation'>
                 <div className='heading'>
                     <img src="./img/sections/navigations/SegmentNav/logo.svg" alt="logo" />
                     <h1>Segment</h1>
@@ -163,7 +163,7 @@ const SegmentNav = () => {
                     <a href="#sub">Docs</a>
                     <a href="#sub">Company</a>
                 </div>
-                <div className='Nav-Btn'>
+                <div className='nav-btn'>
                     <a href="">Log in</a>
                     <button>See How it works</button>
 
@@ -186,7 +186,7 @@ const SegmentNav = () => {
                             setArrorOpen(!isArrorOpen)
                         }} className={`product-arrow-menu ${isArrorOpen ? "open-arror" : "close-arrow"}`} src="./img/sections/navigations/SegmentNav/right-arrow.svg" alt="" />
                     </span>
-                    {SegmentProductMenu.map((t, i) => {
+                    {segmentProductMenu.map((t, i) => {
                         return (
                             <>
                                 <div key={i} className={`inside-product-menu-list ${isProductMenu ? "open-product-list" : "close-product-list"}`}>
