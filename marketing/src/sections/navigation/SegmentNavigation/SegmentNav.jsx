@@ -1,7 +1,7 @@
 import './SegmentNav.css';
 import React from 'react';
 import './SegmentResponsive.css';
-import segmentProductMenu from './SegmentProductMenu';
+import { featureProduct, productBarMenu, webProductItems, segmentProductMenu } from './SegmentProductMenu';
 
 
 const ProductBar = () => (
@@ -144,7 +144,7 @@ const SegmentNav = () => {
             <nav className='segment-navigation'>
                 <div className='heading'>
                     <img src="./img/sections/navigations/SegmentNav/logo.svg" alt="logo" />
-                    <h1>Segment</h1>
+                    <h9>Segment</h9>
                 </div>
                 <div className='features'>
                     <a href="" className="lists">
@@ -152,9 +152,88 @@ const SegmentNav = () => {
                             e.preventDefault();
                             modifystate(!isOpen)
                         }}>
-                            <span>Product</span>
-                            {isOpen && (
-                                <ProductBar />)}
+                            <span >Product</span>
+                            <div className={`productBtn ${isOpen ? "open-product" : "close-product"}`} >
+                                <h1>Segment for</h1>
+                                <div className='segment-product'>
+                                    <div className='all-product-menu'>
+                                        {webProductItems.map((t, i) => {
+                                            return (
+                                                <>
+                                                    <div>
+                                                        <div key={i} className='productMenu'>
+                                                            <img src={t.img} />
+                                                            <div>
+                                                                <h1>{t.title}</h1>
+                                                                <p>{t.author}</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </>
+                                            )
+                                        })}
+                                        <div>
+                                            <h1>Products</h1>
+                                            <div >
+                                                {productBarMenu.map((t, i) => {
+                                                    return (
+                                                        <>
+                                                            <div>
+                                                                <div key={i} className='productMenu'>
+                                                                    <img src={t.img} />
+                                                                    <div>
+                                                                        <h1>{t.title}</h1>
+                                                                        <p>{t.author}</p>
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                        </>
+                                                    )
+                                                })}
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div className='items'>
+                                        <span>FEATURES</span>
+                                        <div className='secondBar'>
+                                            {featureProduct.map((t, i) => {
+                                                return (
+                                                    <>
+                                                        <div className='featuresItems'>
+                                                            <div key={i} className='productMenu'>
+                                                                <img src={t.img} />
+                                                                <div>
+                                                                    <h1>{t.title}</h1>
+                                                                    <p>{t.author}</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </>
+                                                )
+                                            })}
+
+                                        </div>
+                                        <hr />
+                                        <div className='lastItem'>
+                                            <img src='./img/sections/navigations/SegmentNav/c1.svg' alt="" />
+                                            <div>
+                                                <h1>Protocols</h1>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                            </div>
+                                        </div>
+                                        <div className='lastItem'>
+                                            <img src='./img/sections/navigations/SegmentNav/c1.svg' alt="" />
+                                            <div>
+                                                <h1>Market</h1>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </a>
 
