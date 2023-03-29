@@ -53,113 +53,20 @@
     border-radius: 12px;
 }
 
-.segment-navigation .menuList {
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    transition: 0.4s;
-    transform: translateX(0);
-    display: flex;
-    margin: 20px;
-    left: 15%;
-    box-shadow: rgba(13, 21, 55, 0.4) 0px 40px 80px;
-    border-radius: 12px;
-}
-
 .nav-segment-hr {
     height: 1px;
     background-color: lightslategray;
     border: none;
 }
 
-.segment-menu-list {
-    display: flex;
-}
-
-.segment-navigation .first-menu-list h1 {
-    font-size: 1.5rem;
-    margin-bottom: 0;
-    font-weight: 500;
-}
 
 .segment-navigation .product-list {
     margin-top: 70px;
     margin-right: 100px;
 }
 
-.first-menu-list {
-    background-color: white;
-    border-radius: 8px;
-    padding: 40px;
-}
-
-.first-menu-list h3 {
-    font-size: 1.2rem;
-}
-
-.feature-list h1 {
-    font-size: 1.4rem;
-    margin-bottom: 3px;
-    font-weight: 500;
-}
-
-.feature-list {
-    background-color: #f4f4f6;
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
-    padding: 20px;
-    width: 600px;
-    padding: 40px;
-    height: 920px;
-}
-
-.feature-menu-list {
-    display: flex;
-}
-
-.feature-menu-list p {
-    font-size: 1.3rem;
-    color: gray;
-    margin-top: 0px;
-}
-
-.feature-menu-list img {
-    height: 30px;
-    margin-top: 33px;
-    margin-right: 20px;
-}
-
-.segment-menu-list p {
-    font-size: 1.3rem;
-    color: gray;
-    margin-top: 0px;
-}
-
-.segment-menu-list h1 {
-    margin-top: 30px;
-    font-weight: 500;
-}
-
-
-.segment-menu-list img {
-    height: 50px;
-    width: 50px;
-    margin-top: 10px;
-    margin-right: 20px;
-    border-radius: 8px;
-    padding: 25px 30px;
-}
-
 .lists {
     display: flex;
-}
-
-.segment-navigation .menuList .segment-menu-list>span>:hover {
-    color: aqua;
-}
-
-.segment-navigation .menuList .feature-menu-list>span>:hover {
-    color: aqua;
 }
 
 .segment-navigation .hamburger .slice:not(:last-child) {
@@ -191,7 +98,7 @@
     margin: 2px;
     padding: 20px 20px;
     z-index: 1;
-    background-color: lightgray;
+    box-shadow: rgba(13, 21, 55, 0.4) 0px 40px 80px;
     left: 25rem;
     margin-top: 20px;
 }
