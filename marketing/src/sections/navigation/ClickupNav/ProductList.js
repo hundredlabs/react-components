@@ -27,7 +27,32 @@ const productSubList = [
         title: "Template",
         img: './img/sections/navigations/ClickupNav/temp.svg'
     },
-
-
 ]
-export default productSubList;
+const webProductMenu = [
+    {
+        title: "Dashboard",
+        img: './img/sections/navigations/ClickupNav/dash.svg'
+    },
+    {
+        title: "Chat",
+        img: './img/sections/navigations/ClickupNav/chat.svg'
+    },
+    {
+        title: "Template",
+        img: './img/sections/navigations/ClickupNav/temp.svg'
+    },
+    {
+        title: "Dashboard",
+        img: './img/sections/navigations/ClickupNav/dash.svg'
+    },
+    {
+        title: "Chat",
+        img: './img/sections/navigations/ClickupNav/chat.svg'
+    },
+    {
+        title: "Template",
+        img: './img/sections/navigations/ClickupNav/temp.svg'
+    },
+]
+
+export { webProductMenu, productSubList };

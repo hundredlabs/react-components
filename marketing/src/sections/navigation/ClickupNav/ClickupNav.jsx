@@ -1,7 +1,7 @@
 import './ClickupNav.css';
 import React from 'react';
 import './ClickupResponsive.css';
-import productSubList from './ProductList';
+import { webProductMenu, productSubList } from './ProductList';
 
 
 const ProductBar = () => (
@@ -167,6 +167,7 @@ const NavclickUp = () => {
     const [isHamburger, setHamburger] = React.useState(false)
     const [isSubNavActive, setSubNavActive] = React.useState(false)
     const [isArrowOpen, setArrowOpen] = React.useState(false)
+    const [isWebProductOpen, setWebProductOpen] = React.useState(false)
 
     return (
         <>
@@ -175,20 +176,32 @@ const NavclickUp = () => {
                     <img src='./img/sections/navigations/ClickupNav/click.png' alt="design" />
                     <h1>ClickUp</h1>
                 </div>
-                <a href="" className={`features ${isOpen ? 'open-feature' : ''}`}
-                    onMouseOver={(e) => {
-                        e.preventDefault();
-                        modifystate(true)
-                    }} onMouseLeave={(e) => modifystate(false)}>
-                    <div >
-                        <span className='product-menu'>
-                            <div>Product</div>
-                            <img className={isOpen ? "open" : "close"}
-                                src='./img/sections/navigations/ClickupNav/arrow.svg' alt="" />
-                        </span>
-                        {isOpen && (<ProductBar />)}
+                <div className='web-full-product-menu'>
+                    <div className='product-btn'>
+                        <span onClick={() => {
+                            setWebProductOpen(!isWebProductOpen)
+                        }}>Product</span>
+
+
                     </div>
-                </a>
+                    <div className={`webProduct ${isWebProductOpen ? "open-product" : "close-product"}`}>
+                        {webProductMenu.map((t, i) => {
+                            return (
+                                <>
+                                    <div key={i} className="web-nav-list">
+                                        <div className='web-product-list' >
+                                            <img className='web-img-list' src={t.img} alt="task" />
+                                            <h1>{t.title}</h1>
+                                        </div>
+                                    </div>
+
+                                </>
+                            )
+                        })}
+
+                    </div>
+                </div>
+
                 <a href="#sub">Solution</a>
                 <a href="#sub">Learn</a>
                 <a href="#sub">Pricing</a>

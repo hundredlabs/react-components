@@ -271,3 +271,49 @@
 .mobile-nav-links {
     display: none;
 }
+
+.open {
+    height: 30px;
+    width: 30px;
+}
+
+.close {
+    height: 30px;
+    width: 30px;
+}
+
+.close-product {
+    display: none;
+    visibility: hidden;
+}
+
+.web-product-list>img {
+    height: 100px;
+    width: 100px;
+}
+
+.web-product-list>h1 {
+    font-size: 2.2rem;
+}
+
+.web-full-product-menu>div:first-child {
+    margin-top: 4.7rem;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+.webProduct {
+    display: flex;
+    position: absolute;
+    margin-top: 5rem;
+}
+
+.web-product-list {
+    display: flex;
+    flex-direction: row 1fr 1fr;
+}
+
+.web-nav-list {
+    justify-content: space-between;
+    margin: 10px 100px;
+}
