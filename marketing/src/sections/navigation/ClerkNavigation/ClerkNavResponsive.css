@@ -7,25 +7,38 @@
         display: none;
     }
 
-    .clerk-navigation .hamburger {
-        display: block;
+    .clerk-navigation .nav-a-tag {
+        display: none;
+    }
+
+    .clerk-navigation .web-product-item {
+        display: none;
+    }
+
+    .clerk-navigation .all-products-items {
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+        height: 0;
     }
 
     .clerk-navigation .clerk-logo {
-        margin: 5px 20px;
-        padding: 0px 0px;
+        margin: 0px 7px;
+        padding: 10px 10px;
     }
 
     .clerk-navigation .hamburger {
         display: block;
         position: relative;
+        margin: 26px;
+        margin-right: 20rem;
+        padding: 10px 10px;
     }
 
-
-    .clerk-navigation .hamburger {
-        margin: 30px 10px;
-        padding: 0px 10px;
+    .clerk-navigation>div {
+        width: 285px;
     }
+
 
     .clerk-navigation .open-hamburger .slice-2 {
         height: 0;
@@ -48,23 +61,23 @@
         transition: transform 0.6s;
     }
 
-    .close-arrow {
+    .mobile-nav-list .open-arrow {
         rotate: 90deg;
     }
 
-    .sub-mob-list {
+    .mobile-nav-list .sub-mob-list {
         display: flex;
         transition: 0.6s;
     }
 
-    .close-sub-list {
+    .mobile-nav-list .close-sub-list {
         position: relative;
         height: 0;
         display: none;
         visibility: 0;
     }
 
-    .sub-mob-list>div>img {
+    .mobile-nav-list .sub-mob-list>div>img {
         height: 20px;
         width: 20px;
         margin-right: 10px;
@@ -72,14 +85,14 @@
         margin-bottom: 0;
     }
 
-    .sub-mob-list>div>h1 {
+    .mobile-nav-list .sub-mob-list>div>h1 {
         font-size: 1.1rem;
         font-weight: 300;
         margin-top: 4px;
         margin-bottom: 0;
     }
 
-    .sub-mob-list>div {
+    .mobile-nav-list .sub-mob-list>div {
         display: flex;
         align-items: center;
         margin-left: 20px;
@@ -106,7 +119,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        width: 400px;
+        width: 390px;
         height: 900px;
     }
 
@@ -120,6 +133,5 @@
         margin: 0px 20px;
         color: black;
     }
-
 
 }

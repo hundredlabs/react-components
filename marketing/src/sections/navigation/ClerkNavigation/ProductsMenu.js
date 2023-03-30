@@ -1,4 +1,4 @@
-const ProductMenu = [
+const productMenu = [
     {
         img: "./img/sections/navigations/ClerkNavigation/pass.svg",
         title: "Password"
@@ -113,5 +113,5 @@ const webProductMenu = [
 
     },
 ]
-export { ProductMenu, webProductMenu };
+export { productMenu, webProductMenu };
 

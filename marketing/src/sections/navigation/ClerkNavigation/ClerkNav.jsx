@@ -1,7 +1,7 @@
 import "./ClerkNav.css";
 import React from 'react';
 import './ClerkNavResponsive.css'
-import { webProductMenu, ProductMenu } from "./ProductsMenu";
+import { webProductMenu, productMenu } from "./ProductsMenu";
 
 
 const Clerk = () => {
@@ -72,7 +72,7 @@ const Clerk = () => {
                             setArrowOpen(!isArrowOpen)
                         }} className={`arrow-rotate ${isArrowOpen ? "open-arrow" : "close-arrow"}`} src="./img/sections/navigations/ClerkNavigation/right.svg" alt="" />
                     </span>
-                    {ProductMenu.map((t, i) => {
+                    {productMenu.map((t, i) => {
                         return (
                             <>
                                 <div key={i} className={`sub-mob-list ${isProductList ? "open-sub-list" : "close-sub-list"}`}>
