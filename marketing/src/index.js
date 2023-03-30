@@ -2,7 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-import SegmentNav from "./sections/navigation/SegmentNavigation/SegmentNav";
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

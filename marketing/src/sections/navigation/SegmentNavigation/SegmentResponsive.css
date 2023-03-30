@@ -1,38 +1,38 @@
 @media only screen and (max-width:415px) {
-    .segment-Navigation .features>a {
+    .segment-navigation .features>a {
         display: none;
     }
 
-    .segment-Navigation>.Nav-Btn {
+    .segment-navigation>.nav-btn {
         display: none;
     }
 
-    .segment-Navigation {
+    .segment-navigation {
         padding: 5px 5px;
         margin: 5px;
     }
 
-    .segment-Navigation .hamburger {
+    .segment-navigation .hamburger {
         position: relative;
         display: block;
         margin-right: 12px;
     }
 
-    .segment-Navigation .open-hamburger .slice-1 {
+    .segment-navigation .open-hamburger .slice-1 {
         transform: rotate(45deg)translate(10px);
 
     }
 
-    .segment-Navigation .open-hamburger .slice-3 {
+    .segment-navigation .open-hamburger .slice-3 {
         transform: rotate(-45deg)translate(10px);
 
     }
 
-    .segment-Navigation .open-hamburger .slice-2 {
+    .segment-navigation .open-hamburger .slice-2 {
         visibility: hidden;
     }
 
-    .segment-Navigation .hamburger .slice {
+    .segment-navigation .hamburger .slice {
         transition: transform 0.6s;
     }
 

@@ -28,17 +28,15 @@ const SegmentNav = () => {
                                     <div className='all-product-menu'>
                                         {webProductItems.map((t, i) => {
                                             return (
-                                                <>
-                                                    <div>
-                                                        <div key={i} className='productMenu'>
-                                                            <img src={t.img} />
-                                                            <div>
-                                                                <h1>{t.title}</h1>
-                                                                <p>{t.author}</p>
-                                                            </div>
+                                                <div>
+                                                    <div key={i} className='productMenu'>
+                                                        <img src={t.img} />
+                                                        <div>
+                                                            <h1>{t.title}</h1>
+                                                            <p>{t.author}</p>
                                                         </div>
                                                     </div>
-                                                </>
+                                                </div>
                                             )
                                         })}
                                         <div>
@@ -46,18 +44,15 @@ const SegmentNav = () => {
                                             <div >
                                                 {productBarMenu.map((t, i) => {
                                                     return (
-                                                        <>
-                                                            <div>
-                                                                <div key={i} className='productMenu'>
-                                                                    <img src={t.img} />
-                                                                    <div>
-                                                                        <h1>{t.title}</h1>
-                                                                        <p>{t.author}</p>
-                                                                    </div>
-
+                                                        <div>
+                                                            <div key={i} className='productMenu'>
+                                                                <img src={t.img} />
+                                                                <div>
+                                                                    <h1>{t.title}</h1>
+                                                                    <p>{t.author}</p>
                                                                 </div>
                                                             </div>
-                                                        </>
+                                                        </div>
                                                     )
                                                 })}
                                             </div>
@@ -70,17 +65,15 @@ const SegmentNav = () => {
                                         <div className='secondBar'>
                                             {featureProduct.map((t, i) => {
                                                 return (
-                                                    <>
-                                                        <div className='featuresItems'>
-                                                            <div key={i} className='productMenu'>
-                                                                <img src={t.img} />
-                                                                <div>
-                                                                    <h1>{t.title}</h1>
-                                                                    <p>{t.author}</p>
-                                                                </div>
+                                                    <div className='featuresItems'>
+                                                        <div key={i} className='productMenu'>
+                                                            <img src={t.img} />
+                                                            <div>
+                                                                <h1>{t.title}</h1>
+                                                                <p>{t.author}</p>
                                                             </div>
                                                         </div>
-                                                    </>
+                                                    </div>
                                                 )
                                             })}
 
