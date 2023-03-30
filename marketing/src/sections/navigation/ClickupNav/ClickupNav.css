@@ -1,9 +1,10 @@
 .nav-clickup {
     display: flex;
-    text-align: center;
     justify-content: space-between;
     margin-left: 50px;
     border-bottom: 1px solid #EEE;
+    max-width: 2200px;
+    margin: 0 auto;
 }
 
 .nav-clickup h1 {
@@ -58,155 +59,8 @@
     margin-right: 200px;
 }
 
-.nav-clickup .product-menu-List {
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    transition: 0.4s;
-    transform: translateX(0);
-    margin: 55px;
-    margin-top: 58px;
-    border-radius: 8px;
-    background-color: white;
-    display: flex;
-}
-
 .nav-clickup>a.contact {
     margin-left: 200px;
-}
-
-.nav-clickup .product-menu-List .menuBar {
-    display: flex;
-    margin-top: 20px;
-}
-
-.nav-clickup .product-menu-List .menuBar>:hover {
-    background-color: aquamarine;
-    border-radius: 12px;
-}
-
-
-.nav-clickup .product-menu-list {
-    display: flex;
-    font-size: 1.2rem;
-    padding: 40px 50px;
-    text-align: left;
-}
-
-.nav-clickup .platform-menu-list {
-    display: flex;
-    font-size: 1.2rem;
-    justify-content: space-between;
-    padding: 1px;
-}
-
-.product-menu-list h1 {
-    font-size: 2.2rem;
-    font-weight: 200;
-    margin: 15px;
-}
-
-.nav-clickup .list-menu-hr {
-    color: rgb(255, 252, 252);
-    margin-left: 70px;
-    margin-right: 30px;
-}
-
-.nav-clickup .product-menu-list p {
-    color: gray;
-}
-
-.platform-menu-list h1 {
-    font-size: 2.2rem;
-    font-weight: 200;
-    margin: 15px;
-}
-
-
-.nav-clickup .platform-menu-list p {
-    color: gray;
-    margin-left: 15px;
-}
-
-.nav-clickup .platform-list {
-    display: flex;
-}
-
-.nav-clickup .platform-menu-list>div {
-    margin: 30px 50px;
-}
-
-.nav-clickup .menuBar p {
-    margin: 15px;
-}
-
-
-.nav-clickup .product-menu-List .img-list {
-    height: 60px;
-    width: 60px;
-    margin-top: 20px;
-}
-
-.nav-clickup .product-menu-List button {
-    font-size: 1.8rem;
-    font-weight: 600;
-    border-radius: 12px;
-    padding: 10px 470px;
-    display: flex;
-    margin-left: 20px;
-}
-
-.nav-clickup .header-logo {
-    display: flex;
-    align-items: center;
-}
-
-.nav-clickup .header-logo p4 {
-    color: white;
-    font-size: 2.2rem;
-}
-
-.nav-clickup .header-logo p2 {
-    color: #ff41c9;
-    font-size: 1.9rem;
-}
-
-.nav-clickup .product-menu-List .img-header {
-    height: 40px;
-    width: 30px;
-    margin: 5px;
-}
-
-.nav-clickup .header-sentence {
-    color: white;
-    text-align: center;
-    font-size: 2.1rem;
-}
-
-.nav-clickup .header {
-    background: linear-gradient(108.42deg, #2a2e34 59.96%, #ff41c9 116.89%);
-    width: 1250px;
-    border-radius: 12px;
-    padding: 40px 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: -20px;
-}
-
-.nav-clickup .product-menu-List h1 {
-    text-align: left;
-    font-size: 2.1rem;
-    font-weight: 500;
-}
-
-
-.nav-clickup .newTag {
-    background-color: #2b2f35;
-    border-radius: 8px;
-    padding: 1px 10px;
-    color: white;
-    margin-right: 1100px;
 }
 
 .nav-clickup .header-sentence p3 {
@@ -282,38 +136,242 @@
     width: 30px;
 }
 
+
 .close-product {
     display: none;
     visibility: hidden;
 }
 
-.web-product-list>img {
-    height: 100px;
-    width: 100px;
+.nav-clickup .first-web-product-list {
+    display: flex;
+    align-items: center;
 }
 
-.web-product-list>h1 {
-    font-size: 2.2rem;
+.nav-clickup .first-web-product-list>img {
+    height: 60px;
+    margin-right: 10px;
 }
 
-.web-full-product-menu>div:first-child {
+.nav-clickup .first-web-product-list>div h1 {
+    font-size: 2.8rem;
+    margin-right: 100px;
+}
+
+.nav-clickup .second-web-product-list>img {
+    height: 60px;
+    margin-right: 10px;
+}
+
+.nav-clickup .second-web-product-list {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-clickup .second-web-nav-list>div>div h1 {
+    font-size: 2.5rem;
+}
+
+
+.nav-clickup .third-web-product-list>div>h1 {
+    font-size: 2.6rem;
+}
+
+.nav-clickup .third-web-product-list {
+    padding: 35px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-clickup .third-web-product-list>div p {
+    margin-top: -20px;
+}
+
+.nav-clickup .first-web-product-list>div p {
+    margin-top: -20px;
+}
+
+.nav-clickup .second-web-product-list>div p {
+    margin-top: -20px;
+}
+
+.nav-clickup .web-full-product-menu>div:first-child {
     margin-top: 4.7rem;
     font-weight: 700;
     font-size: 1.8rem;
 }
 
-.webProduct {
+
+.nav-clickup .webProduct {
     display: flex;
     position: absolute;
     margin-top: 5rem;
+    left: 1%;
 }
 
-.web-product-list {
+
+.features-item {
     display: flex;
-    flex-direction: row 1fr 1fr;
+    align-items: center;
+}
+
+
+.product-heading {
+    float: left;
+}
+
+.feature-new-list {
+    display: flex;
 }
 
 .web-nav-list {
     justify-content: space-between;
     margin: 10px 100px;
+}
+
+.open-product {
+    width: 100px;
+}
+
+
+.nav-clickup .hrLine {
+    height: 50rem;
+    margin-top: 1px;
+    margin-left: 1px;
+}
+
+.nav-clickup .first-product-option {
+    display: flex;
+    gap: 50px;
+}
+
+.nav-clickup .first-product-option>div {
+    margin-right: 100px;
+}
+
+.nav-clickup .second-product-option {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.nav-clickup .second-product-option>div {
+    margin-right: 100px;
+}
+
+.nav-clickup .web-header-logo>img {
+    height: 50px;
+    width: 40px;
+    margin-top: 10px;
+}
+
+.nav-clickup .web-header {
+    background: linear-gradient(108.42deg, #2a2e34 59.96%, #ff41c9 116.89%);
+    width: 1200px;
+    border-radius: 12px;
+    padding: 40px 30px;
+    display: flex;
+    margin-top: -12px;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-clickup .web-header-logo {
+    color: white;
+}
+
+.nav-clickup .web-header-sentence {
+    color: white;
+    font-size: 2.1rem;
+}
+
+.nav-clickup .web-header-sentence p3 {
+    color: #ff41c9;
+}
+
+.nav-clickup .web-header-logo p4 {
+    color: white;
+    font-size: 2.3rem;
+}
+
+.nav-clickup .web-header-logo p2 {
+    color: #ff41c9;
+    font-size: 2.1rem;
+}
+
+.newTag {
+    background-color: #2b2f35;
+    border-radius: 8px;
+    padding: 1px 10px;
+    color: white;
+    margin-right: 80rem;
+}
+
+.nav-clickup .web-product-heading {
+    float: left;
+    font-size: 2.1rem;
+    margin: 20px;
+}
+
+.nav-clickup .productOptionBtn>div>button {
+    float: left;
+    margin-top: 20rem;
+    width: 100rem;
+    font-size: 2.3rem;
+    margin-left: 1px;
+}
+
+.nav-clickup .web-product-menu-List {
+    width: 1270px;
+    margin-left: 10rem;
+    margin-right: 1rem;
+}
+
+.nav-clickup .feature-heading {
+    font-size: 2.1rem;
+    margin: 20px;
+}
+
+.nav-clickup .features-item img {
+    height: 60px;
+    margin-right: 10px;
+}
+
+.nav-clickup .last-web-nav-list>div {
+    padding: 35px 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.nav-clickup .last-web-nav-list>div>img {
+    height: 80px;
+    margin-right: 10px;
+}
+
+.nav-clickup .last-web-nav-list>div>div p {
+    margin-top: -20px;
+}
+
+.nav-clickup .features-item h1 {
+    font-size: 2.5rem;
+}
+
+.nav-clickup .features-last-items {
+    margin-top: 4rem;
+}
+
+.nav-clickup .features-last-items img {
+    height: 70px;
+    margin-right: 10px;
+}
+
+.nav-clickup .web-product-menu-List .product-btn {
+    font-size: 2.2rem;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #EEE;
 }

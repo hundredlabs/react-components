@@ -1,166 +1,7 @@
 import './ClickupNav.css';
 import React from 'react';
 import './ClickupResponsive.css';
-import { webProductMenu, productSubList } from './ProductList';
-
-
-const ProductBar = () => (
-    <div className="product-menu-List">
-        <div>
-            <h1>PRODUCT</h1>
-            <span className='newTag'>new</span>
-            <div className='header'>
-                <div className='header-logo'>
-
-                    <img className='img-header' src='./img/sections/navigations/ClickupNav/click.png' alt="logo" />
-                    <p4>ClichUp</p4><p2>3.0</p2>
-                </div>
-                <div className='header-sentence'>
-                    Unlock the next generation of productivity<p3> →</p3>
-                </div>
-            </div>
-            <div className='menuBar'>
-                <div className='product-menu-list'>
-                    <div>
-                        <img className='img-list' src='./img/sections/navigations/ClickupNav/task.svg' alt="Tash-logo" />
-                    </div>
-                    <div>
-                        <h1>Tasks</h1>
-                        <p>Break down any size product</p>
-                        <p>Break down any size product</p>
-                    </div>
-                </div>
-                <div className='product-menu-list'>
-                    <div>
-                        <img className='img-list' src='./img/sections/navigations/ClickupNav/doc.svg' alt="Tash-logo" />
-                    </div>
-                    <div>
-                        <h1>Docs</h1>
-
-                        <p>Break down any size product</p>
-                        <p>Break down any size product</p>
-                    </div>
-                </div>
-                <div className='product-menu-list'>
-                    <div>
-                        <img className='img-list' src='./img/sections/navigations/ClickupNav/goal.svg' alt="Tash-logo" />
-                    </div>
-                    <div>
-                        <h1>Goals</h1>
-                        <p>Break down any size product</p>
-                        <p>Break down any size product</p>
-                    </div>
-                </div>
-            </div>
-
-            <div className='menuBar'>
-                <div className='product-menu-list'>
-                    <div>
-                        <img className='img-list' src='./img/sections/navigations/ClickupNav/white.svg' alt="Tash-logo" />
-                    </div>
-                    <div>
-                        <h1>WhiteBoard</h1>
-
-                        <p>Break down any size product</p>
-                        <p>Break down any size product</p>
-                    </div>
-                </div>
-                <div className='product-menu-list'>
-                    <div>
-                        <img className='img-list' src='./img/sections/navigations/ClickupNav/dash.svg' alt="Tash-logo" />
-                    </div>
-                    <div>
-                        <h1>Dashboard</h1>
-                        <p>Break down any size product</p>
-                        <p>Break down any size product</p>
-                    </div>
-                </div>
-                <div className='product-menu-list'>
-                    <div>
-                        <img className='img-list' src='./img/sections/navigations/ClickupNav/chat.svg' alt="Tash-logo" />
-                    </div>
-                    <div>
-                        <h1>Chat</h1>
-                        <p>Break down any size product</p>
-                        <p>Break down any size product</p>
-                    </div>
-                </div>
-            </div>
-            <button>See All Features    <div className='btnP'>→</div></button>
-        </div>
-        <hr className='list-menu-hr' />
-        <div className='platform-menu'>
-            <h1 className='platform-h1'>PLATFORM</h1>
-            <div className='platform-menu-list'>
-                <div className='platform-list'>
-                    <div>
-                        <img className='img-list' src='./img/sections/navigations/ClickupNav/temp.svg' alt="Tash-logo" />
-                    </div>
-                    <div>
-                        <h1>Templates</h1>
-                        <p>Break down any size product</p>
-                        <p>Break down any size product</p>
-                    </div>
-                </div>
-                <div className='platform-list'>
-                    <div>
-                        <img className='img-list' src='./img/sections/navigations/ClickupNav/click.svg' alt="Tash-logo" />
-                    </div>
-                    <div>
-                        <h1>ClickApps</h1>
-                        <p>Break down any size product</p>
-                        <p>Break down any size product</p>
-                    </div>
-                </div>
-            </div>
-            <div className='platform-menu-list'>
-                <div className='platform-list'>
-                    <div>
-                        <img className='img-list' src='./img/sections/navigations/ClickupNav/inr.svg' alt="Tash-logo" />
-                    </div>
-                    <div>
-                        <h1>Integrations</h1>
-                        <p>Break down any size product</p>
-                        <p>Break down any size product</p>
-                    </div>
-                </div>
-                <div className='platform-list'>
-                    <div>
-                        <img className='img-list' src='./img/sections/navigations/ClickupNav/view.svg' alt="Tash-logo" />
-                    </div>
-                    <div>
-                        <h1>Views</h1>
-                        <p>Break down any size product</p>
-                        <p>Break down any size product</p>
-                    </div>
-                </div>
-            </div>
-            <div className='platform-menu-list'>
-                <div className='platform-list'>
-                    <div>
-                        <img className='img-list' src='./img/sections/navigations/ClickupNav/hie.svg' alt="Tash-logo" />
-                    </div>
-                    <div>
-                        <h1>Hierarchy</h1>
-                        <p>Break down any size product</p>
-                        <p>Break down any size product</p>
-                    </div>
-                </div>
-                <div className='platform-list'>
-                    <div>
-                        <img className='img-list' src='./img/sections/navigations/ClickupNav/auto.svg'
-                            alt="Tash-logo" />
-                    </div>
-                    <div>
-                        <h1>Automotions</h1>
-                        <p>Break down any size product</p>
-                        <p>Break down any size product</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-)
+import { webProductMenuFirst, webProductMenuSecond, webProductMenuThird, webProductMenuFour, productSubList } from './ProductList';
 
 const NavclickUp = () => {
     const [isOpen, modifystate] = React.useState(false)
@@ -177,29 +18,105 @@ const NavclickUp = () => {
                     <h1>ClickUp</h1>
                 </div>
                 <div className='web-full-product-menu'>
-                    <div className='product-btn'>
+                    <div className={`features ${isOpen ? 'open-feature' : ''}`}
+                        onMouseOver={(e) => {
+                            e.preventDefault();
+                            modifystate(true)
+                        }} onMouseLeave={(e) => modifystate(false)}>
                         <span onClick={() => {
                             setWebProductOpen(!isWebProductOpen)
                         }}>Product</span>
 
-
                     </div>
                     <div className={`webProduct ${isWebProductOpen ? "open-product" : "close-product"}`}>
-                        {webProductMenu.map((t, i) => {
-                            return (
-                                <>
-                                    <div key={i} className="web-nav-list">
-                                        <div className='web-product-list' >
-                                            <img className='web-img-list' src={t.img} alt="task" />
-                                            <h1>{t.title}</h1>
-                                        </div>
-                                    </div>
+                        <div className={`web-product-menu-List ${isArrowOpen ? "open-menu" : "close-menu"}`}>
+                            <span className='web-product-heading'>PRODUCTS</span>
+                            <span className='newTag'>new</span>
+                            <div className='web-header'>
+                                <div className='web-header-logo'>
+                                    <img className='img-header' src='./img/sections/navigations/ClickupNav/click.png' alt="logo" />
+                                    <p4>ClichUp</p4><p2>3.0</p2>
+                                </div>
+                                <div className='web-header-sentence'>
+                                    Unlock the next generation of productivity<p3> →</p3>
+                                </div>
+                            </div>
 
-                                </>
-                            )
-                        })}
+                            <div className='first-product-option'>
+                                {webProductMenuFirst.map((t, i) => {
+                                    return (
+                                        <div key={i} className="first-web-nav-list">
+                                            <div className='first-web-product-list' >
+                                                <img className='web-img-list' src={t.img} alt="task" />
+                                                <div>
+                                                    <h1>{t.title}</h1>
+                                                    <p>{t.author}</p>
+                                                </div> </div>
+                                        </div>
+                                    )
+                                })}
+                            </div>
+                            <div className='second-product-option'>
+                                {webProductMenuSecond.map((t, i) => {
+                                    return (
+                                        <div key={i} className="second-web-nav-list">
+                                            <div className='second-web-product-list' >
+                                                <img className='web-img-list' src={t.img} alt="task" />
+                                                <div>
+                                                    <h1>{t.title}</h1>
+                                                    <p>{t.author}</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    )
+                                })}
+                            </div>
+                            <div className='product-btn'>SEE ALL FEATURES</div>
+                        </div>
+                        <hr className='hrLine' />
+                        <div className='secondListItems'>
+                            <div className='features-item'>
+                                <div>
+                                    <span className='feature-heading'>FEATURES</span>
+                                    {webProductMenuThird.map((t, i) => {
+                                        return (
+                                            <div key={i} className="third-web-nav-list">
+                                                <div className='third-web-product-list' >
+                                                    <img className='web-img-list' src={t.img} alt="task" />
+                                                    <div>
+                                                        <h1>{t.title}</h1>
+                                                        <p>{t.author}</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        )
+                                    })}
+                                </div>
+                                <div className='features-last-items'>
+                                    {webProductMenuFour.map((t, i) => {
+                                        return (
+                                            <>
+                                                <div key={i} className="last-web-nav-list">
+                                                    <div className='last-web-product-list' >
+                                                        <img className='web-img-list' src={t.img} alt="task" />
+                                                        <div>
+                                                            <h1>{t.title}</h1>
+                                                            <p>{t.author}</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </>
+                                        )
+                                    })}
+                                </div>
+
+                            </div>
+                        </div>
+
 
                     </div>
+
                 </div>
 
                 <a href="#sub">Solution</a>

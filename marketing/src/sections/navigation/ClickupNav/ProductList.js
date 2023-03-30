@@ -28,31 +28,73 @@ const productSubList = [
         img: './img/sections/navigations/ClickupNav/temp.svg'
     },
 ]
-const webProductMenu = [
+const webProductMenuFirst = [
     {
-        title: "Dashboard",
-        img: './img/sections/navigations/ClickupNav/dash.svg'
+        title: "Tasks",
+        img: './img/sections/navigations/ClickupNav/task.svg',
+        author: "Break down the product size"
+    },
+    {
+        title: "Docs",
+        img: './img/sections/navigations/ClickupNav/doc.svg',
+        author: "Break down the product size"
+    },
+    {
+        title: "Goals",
+        img: './img/sections/navigations/ClickupNav/goal.svg',
+        author: "Break down the product size"
+    },
+]
+const webProductMenuSecond = [
+    {
+        title: "Whiteboards",
+        img: './img/sections/navigations/ClickupNav/white.svg',
+        author: "Break down the product size"
+    },
+    {
+        title: "Dashboards",
+        img: './img/sections/navigations/ClickupNav/dash.svg',
+        author: "Break down the product size"
     },
     {
         title: "Chat",
-        img: './img/sections/navigations/ClickupNav/chat.svg'
+        img: './img/sections/navigations/ClickupNav/chat.svg',
+        author: "Break down the product size"
+    },
+]
+const webProductMenuThird = [
+    {
+        title: "Templates",
+        img: './img/sections/navigations/ClickupNav/temp.svg',
+        author: "Break down the product size"
     },
     {
-        title: "Template",
-        img: './img/sections/navigations/ClickupNav/temp.svg'
+        title: "Integrations",
+        img: './img/sections/navigations/ClickupNav/inr.svg',
+        author: "Break down the product size"
     },
     {
-        title: "Dashboard",
-        img: './img/sections/navigations/ClickupNav/dash.svg'
+        title: "Hierarchy",
+        img: './img/sections/navigations/ClickupNav/hie.svg',
+        author: "Break down the product size"
+    },
+]
+const webProductMenuFour = [
+    {
+        title: "ClickApps",
+        img: './img/sections/navigations/ClickupNav/click.svg',
+        author: "Break down the product size"
     },
     {
-        title: "Chat",
-        img: './img/sections/navigations/ClickupNav/chat.svg'
+        title: "Views",
+        img: './img/sections/navigations/ClickupNav/view.svg',
+        author: "Break down the product size"
     },
     {
-        title: "Template",
-        img: './img/sections/navigations/ClickupNav/temp.svg'
+        title: "Automations",
+        img: './img/sections/navigations/ClickupNav/auto.svg',
+        author: "Break down the product size"
     },
 ]
 
-export { webProductMenu, productSubList };
+export { webProductMenuFirst, webProductMenuSecond, webProductMenuThird, webProductMenuFour, productSubList };

@@ -163,7 +163,11 @@
     }
 
     .mob-product-menu-List .newTag {
-        margin: 20px;
+        margin: 25px;
+        padding: 1px 2px;
+        border-radius: 4px;
+        background: linear-gradient(108.42deg, #2a2e34 59.96%, #ff41c9 116.89%);
+        color: white;
     }
 
     .mob-header-logo>img {
@@ -224,6 +228,10 @@
 
     .mob-product-list {
         align-items: center;
+    }
+
+    .nav-clickup .web-full-product-menu {
+        display: none;
     }
 
 }
