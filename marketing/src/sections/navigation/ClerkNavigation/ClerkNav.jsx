@@ -1,7 +1,7 @@
 import "./ClerkNav.css";
 import React from 'react';
 import './ClerkNavResponsive.css'
-import { webProductMenu, productMenu } from "./ProductsMenu";
+import { webProductMenu, productMenu, webSecondProductMenu, componetsItem, databaseItem, traditionalItem } from "./ProductsMenu";
 
 
 const Clerk = () => {
@@ -13,35 +13,84 @@ const Clerk = () => {
             <nav className="clerk-navigation">
                 <div className="clerk-logo">
                     <div>
-                        <img src='./img/sections/navigations/ClerkNavigation/logo.svg' alt="" />
+                        <img src='./img/sections/navigations/ClerkNavigation/logo.svg' />
                         <h1>Clerk</h1>
                     </div>
                     <div className={`nav-a-tag ${isHamburger ? "open-web-menu" : "close-web-menu"}`}>
                         <div>
-                            <span >
+                            <span>
                                 <p className="web-product-item" onClick={() => {
                                     setProductList(!isProductList)
                                 }}>Product</p>
                             </span>
                             <div className={`all-products-items ${isProductList ? "open-web-list" : "close-web-list"}`}>
-                                <p>Products</p>
-                                <p>FEATURES</p>
-                                {webProductMenu.map((t, i) => {
-                                    return (
-                                        <>
-                                            <div key={i} className="web-mob-list" >
-                                                <div>
-                                                    <img src={t.img} alt="" />
-                                                    <h1>{t.title}</h1>
+                                <div className="items-menu-product">
+                                    <div className="product-list-menu">
+                                        <span>Products</span>
+                                        <p>FEATURES</p>
+                                        {webProductMenu.map((t, i) => {
+                                            return (
+                                                <div key={i} className="web-mob-list" >
+                                                    <div>
+                                                        <img src={t.img} alt="" />
+                                                        <h1>{t.title}</h1>
+                                                    </div>
                                                 </div>
-                                                <div className="second-menu-list">
-                                                    <img src={t.img} alt="" />
-                                                    <h1>{t.title}</h1>
+                                            )
+                                        })}
+                                        <p>COMPONENTS</p>
+                                        {componetsItem.map((t, i) => {
+                                            return (
+                                                <div key={i} className="web-second-list">
+                                                    <div className="componets-items">
+                                                        <img src={t.img} />
+                                                        <h1>{t.title}</h1>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                        </>
-                                    )
-                                })}
+                                            )
+                                        })}
+                                    </div>
+                                    <div className="jamstack-framework">
+                                        <span>JAMSTACK FRAMEWORK INTEGRATIONS</span>
+                                        {webSecondProductMenu.map((t, i) => {
+                                            return (
+                                                <div key={i} className="web-second-list">
+                                                    <div>
+                                                        <img src={t.img} />
+                                                        <h1>{t.title}</h1>
+                                                    </div>
+                                                </div>
+                                            )
+                                        })}
+
+                                        <div className="jamstack-framework-item">
+                                            <span>JAMSTACK DATABASE INTEGRATIONS</span>
+                                            {databaseItem.map((t, i) => {
+                                                return (
+                                                    <div key={i} className="web-second-list">
+                                                        <div>
+                                                            <img src={t.img} />
+                                                            <h1>{t.title}</h1>
+                                                        </div>
+                                                    </div>
+                                                )
+                                            })}
+                                        </div>
+                                        <div className="jamstack-framework-item">
+                                            <span>TRADITIONAL FRAMEWORK INTEGRATIONS</span>
+                                            {traditionalItem.map((t, i) => {
+                                                return (
+                                                    <div key={i} className="web-second-list">
+                                                        <div>
+                                                            <img src={t.img} />
+                                                            <h1>{t.title}</h1>
+                                                        </div>
+                                                    </div>
+                                                )
+                                            })}
+                                        </div>
+                                    </div>
+                                </div>
 
                             </div>
                         </div>

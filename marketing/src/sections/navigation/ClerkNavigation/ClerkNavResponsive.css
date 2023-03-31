@@ -61,7 +61,7 @@
         transition: transform 0.6s;
     }
 
-    .mobile-nav-list .open-arrow {
+    .mobile-nav-list .close-arrow {
         rotate: 90deg;
     }
 

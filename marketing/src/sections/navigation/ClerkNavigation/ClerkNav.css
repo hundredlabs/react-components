@@ -4,23 +4,30 @@
     justify-content: space-between;
     margin-top: 40px;
     align-items: center;
-    padding: 0px 200px;
+    margin-left: 18rem;
 }
 
 .clerk-navigation {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 
 .clerk-navigation>div>a {
     font-weight: 500;
+    margin: 0 10px;
+}
+
+.clerk-navigation .clerk-logo>div>img {
+    margin-right: 5px;
+    height: 30px;
 }
 
 .clerk-navigation .clerk-logo>div {
     display: flex;
     align-items: center;
-    margin-right: 6rem;
+    margin-right: 16rem;
 }
 
 .clerk-navigation .clerk-logo>div>h1 {
@@ -34,6 +41,7 @@
 
 .clerk-navigation .nav-a-tag>a {
     margin: 0 30px;
+    align-items: center;
     text-decoration: none;
     font-size: 1.7rem;
     font-weight: 500;
@@ -62,30 +70,6 @@
     margin: 0 30px;
 }
 
-
-.clerk-navigation .feature-list {
-    display: flex;
-    font-size: 1.4rem;
-
-}
-
-.clerk-navigation .feature-list:hover {
-    background-color: aliceblue;
-    text-align: center;
-    border-radius: 12px;
-    align-items: center;
-}
-
-.clerk-navigation .feature-list img {
-    margin-right: 20px;
-    margin-top: 20px;
-    margin-left: 10px;
-}
-
-.clerk-navigation .feature-list p {
-    margin-bottom: 12px;
-}
-
 .clerk-navigation .hamburger .slice {
     height: 3px;
     width: 30px;
@@ -106,44 +90,73 @@
 }
 
 .clerk-navigation .web-mob-list>div>img {
-    height: 40px;
-    width: 40px;
+    height: 35px;
+    width: 35px;
     margin-right: 10px;
 }
+
+.clerk-navigation .web-second-list>div>img {
+    height: 35px;
+    width: 35px;
+    margin-right: 10px;
+}
+
 
 .clerk-navigation .all-products-items {
     display: flex;
     flex-direction: column;
     margin-top: 6px;
+    left: 33rem;
     transition: transform .6s ease-in;
     z-index: -1;
     padding: 25px;
     position: absolute;
-    width: 900px;
+    width: 1100px;
     box-shadow: rgba(13, 21, 55, 0.4) 0px 40px 80px;
-}
-
-.clerk-navigation .web-mob-list>div {
-    display: flex;
-    align-items: center;
-    margin: 2px 0px;
-    width: 450px;
-}
-
-.clerk-navigation .web-mob-list {
-    justify-content: space-between;
-    display: flex;
+    border-radius: 20px;
 }
 
 .clerk-navigation .web-product-item {
     font-size: 1.7rem;
     font-weight: 500;
     color: #551A8b;
+    margin-right: 30px;
+}
+
+.clerk-navigation .web-mob-list>div {
+    display: flex;
+    align-items: center;
+    width: 450px;
+}
+
+.clerk-navigation .web-mob-list {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
 }
 
 .clerk-navigation .web-mob-list h1 {
-    font-size: 1.6rem;
-    font-weight: 300;
+    color: #636974;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.clerk-navigation .web-second-list>div {
+    display: flex;
+    align-items: center;
+    margin: 2px 0px;
+    width: 450px;
+}
+
+.clerk-navigation .web-second-list {
+    justify-content: space-between;
+    display: flex;
+}
+
+.clerk-navigation .web-second-list h1 {
+    color: #636974;
+    font-size: 1.3rem;
+    font-weight: 500;
 }
 
 
@@ -157,4 +170,37 @@
     font-size: 1.8rem;
     margin-bottom: 0;
     margin-top: 5px;
+}
+
+.clerk-navigation .items-menu-product {
+    display: flex;
+    justify-content: space-between;
+}
+
+.clerk-navigation .product-list-menu p {
+    color: #636974;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.clerk-navigation .product-list-menu>span {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.clerk-navigation .jamstack-framework>span {
+    color: #636974;
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-top: 60px;
+}
+
+.clerk-navigation .jamstack-framework-item>span {
+    color: #636974;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.clerk-navigation .jamstack-framework {
+    margin-top: 48px;
 }

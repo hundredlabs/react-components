@@ -97,21 +97,102 @@ const webProductMenu = [
         title: "Security"
 
     },
+
+]
+const webSecondProductMenu = [
+    {
+        img: "./img/sections/navigations/ClerkNavigation/next.svg",
+        title: "Next.js"
+
+    },
+    {
+        img: "./img/sections/navigations/ClerkNavigation/remix.svg",
+        title: "Remix"
+
+    },
+    {
+        img: "./img/sections/navigations/ClerkNavigation/redwood.svg",
+        title: "Redwoodjs"
+
+    },
+    {
+        img: "./img/sections/navigations/ClerkNavigation/gat.svg",
+        title: "Gatsby"
+
+    },
+    {
+        img: "./img/sections/navigations/ClerkNavigation/react.svg",
+        title: "React"
+
+    },
+    {
+        img: "./img/sections/navigations/ClerkNavigation/expo.svg",
+        title: "React Native / Expo"
+
+    },
+
+]
+const componetsItem = [
+    {
+        img: "./img/sections/navigations/ClerkNavigation/auth.svg",
+        title: "Auth & User Components"
+
+    },
     {
         img: "./img/sections/navigations/ClerkNavigation/b2b.svg",
-        title: "B2b Saas Components"
+        title: "B2B Saas Components"
 
     },
     {
         img: "./img/sections/navigations/ClerkNavigation/comp.svg",
-        title: "Components Customization"
+        title: "Componets Customization"
 
     },
     {
         img: "./img/sections/navigations/ClerkNavigation/see.svg",
-        title: "See all components"
+        title: "See All Components"
 
     },
 ]
-export { productMenu, webProductMenu };
+const databaseItem = [
+    {
+        img: "./img/sections/navigations/ClerkNavigation/hasura.svg",
+        title: "Hasura"
+
+    },
+    {
+        img: "./img/sections/navigations/ClerkNavigation/supa.svg",
+        title: "supabase"
+
+    },
+    {
+        img: "./img/sections/navigations/ClerkNavigation/fauna.svg",
+        title: "Fauna"
+
+    },
+    {
+        img: "./img/sections/navigations/ClerkNavigation/firebase.svg",
+        title: "Firebase"
+
+    },
+    {
+        img: "./img/sections/navigations/ClerkNavigation/graf.svg",
+        title: "Grafbase"
+
+    },
+]
+const traditionalItem = [
+    {
+        img: "./img/sections/navigations/ClerkNavigation/node.svg",
+        title: "Node / Express"
+
+    },
+    {
+        img: "./img/sections/navigations/ClerkNavigation/ruby.svg",
+        title: "Ruby / Rails"
+
+    },
+
+]
+export { productMenu, webProductMenu, webSecondProductMenu, componetsItem, databaseItem, traditionalItem };
 
