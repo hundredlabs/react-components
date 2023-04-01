@@ -92,13 +92,13 @@
 .clerk-navigation .web-mob-list>div>img {
     height: 35px;
     width: 35px;
-    margin-right: 10px;
+    margin: 10px;
 }
 
 .clerk-navigation .web-second-list>div>img {
     height: 35px;
     width: 35px;
-    margin-right: 10px;
+    margin: 10px;
 }
 
 
@@ -109,7 +109,7 @@
     left: 33rem;
     transition: transform .6s ease-in;
     z-index: -1;
-    padding: 25px;
+    padding: 30px;
     position: absolute;
     width: 1100px;
     box-shadow: rgba(13, 21, 55, 0.4) 0px 40px 80px;
@@ -127,6 +127,16 @@
     display: flex;
     align-items: center;
     width: 450px;
+}
+
+.clerk-navigation .web-mob-list>div:hover {
+    background-color: rgba(0, 0, 0, .04);
+    border-radius: 8px;
+}
+
+.clerk-navigation .web-second-list>div:hover {
+    background-color: rgba(0, 0, 0, .04);
+    border-radius: 8px;
 }
 
 .clerk-navigation .web-mob-list {
@@ -179,25 +189,27 @@
 
 .clerk-navigation .product-list-menu p {
     color: #636974;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: 500;
+    margin: 10px;
 }
 
 .clerk-navigation .product-list-menu>span {
     font-size: 1.6rem;
     font-weight: 500;
+    margin: 10px;
 }
 
 .clerk-navigation .jamstack-framework>span {
     color: #636974;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: 500;
     margin-top: 60px;
 }
 
 .clerk-navigation .jamstack-framework-item>span {
     color: #636974;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: 500;
 }
 
