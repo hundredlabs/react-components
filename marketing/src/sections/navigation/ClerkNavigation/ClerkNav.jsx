@@ -113,6 +113,7 @@ const Clerk = () => {
             </nav >
             <div className={`mobile-nav-list ${isHamburger ? "open-sub-menu" : "close-sub-menu"}`}>
                 <div>
+                    <hr className="mob-hr" />
                     <span className="product-main-item" onClick={() => {
                         setProductList(!isProductList)
                     }}>
@@ -121,6 +122,7 @@ const Clerk = () => {
                             setArrowOpen(!isArrowOpen)
                         }} className={`arrow-rotate ${isArrowOpen ? "open-arrow" : "close-arrow"}`} src="./img/sections/navigations/ClerkNavigation/right.svg" alt="" />
                     </span>
+                    <span className="mob-feature-heading">FEATURES</span>
                     {productMenu.map((t, i) => {
                         return (
                             <>

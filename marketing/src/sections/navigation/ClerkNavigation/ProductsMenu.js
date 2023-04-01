@@ -20,7 +20,12 @@ const productMenu = [
 
     },
     {
-        img: "./img/sections/navigations/ClerkNavigation/auth.svg",
+        img: "./img/sections/navigations/ClerkNavigation/auth and user.svg",
+        title: "Auth & User Components"
+
+    },
+    {
+        img: "./img/sections/navigations/ClerkNavigation/web3.svg",
         title: "Web3 authentication"
 
     },
@@ -37,21 +42,6 @@ const productMenu = [
     {
         img: "./img/sections/navigations/ClerkNavigation/security.svg",
         title: "Security"
-
-    },
-    {
-        img: "./img/sections/navigations/ClerkNavigation/b2b.svg",
-        title: "B2b Saas Components"
-
-    },
-    {
-        img: "./img/sections/navigations/ClerkNavigation/comp.svg",
-        title: "Components Customization"
-
-    },
-    {
-        img: "./img/sections/navigations/ClerkNavigation/see.svg",
-        title: "See all components"
 
     },
 ]

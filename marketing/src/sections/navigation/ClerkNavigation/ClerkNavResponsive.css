@@ -68,6 +68,7 @@
     .mobile-nav-list .sub-mob-list {
         display: flex;
         transition: 0.6s;
+        padding: 5px;
     }
 
     .mobile-nav-list .close-sub-list {
@@ -83,13 +84,15 @@
         margin-right: 10px;
         margin-top: 5px;
         margin-bottom: 0;
+        margin-left: 5px;
     }
 
     .mobile-nav-list .sub-mob-list>div>h1 {
-        font-size: 1.1rem;
-        font-weight: 300;
         margin-top: 4px;
         margin-bottom: 0;
+        font-size: 0.8rem;
+        font-weight: 500;
+        color: #636974;
     }
 
     .mobile-nav-list .sub-mob-list>div {
@@ -105,8 +108,10 @@
 
     .mobile-nav-list>div>span>p {
         margin-left: 20px;
-        margin-top: 30px;
+        margin-top: 10px;
         margin-bottom: 0px;
+        font-weight: 500;
+        font-size: 1.2rem;
     }
 
     .mobile-nav-list {
@@ -132,6 +137,26 @@
         text-decoration: none;
         margin: 0px 20px;
         color: black;
+    }
+
+    .mobile-nav-list .arrow-rotate {
+        margin-top: 13px;
+        height: 25px;
+        margin-right: 5px;
+    }
+
+    .mobile-nav-list .mob-hr {
+        margin-top: 20px;
+        width: 500px;
+        border: 2px solid rgba(0, 0, 0, .04);
+    }
+
+    .mobile-nav-list .mob-feature-heading {
+        font-size: 0.8rem;
+        font-weight: 500;
+        color: #636974;
+        margin: 10px;
+        margin-left: 30px;
     }
 
 }
