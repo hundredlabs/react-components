@@ -21,9 +21,9 @@ const SegmentNav = () => {
                             e.preventDefault();
                             modifystate(!isOpen)
                         }}>
-                            <span >Product</span>
+                            <span className='product-anchor-tag'>Product</span>
                             <div className={`productBtn ${isOpen ? "open-product" : "close-product"}`} >
-                                <h1>Segment for</h1>
+                                <h1 className='segment-heading'>SEGMENT FOR...</h1>
                                 <div className='segment-product'>
                                     <div className='all-product-menu'>
                                         {webProductItems.map((t, i) => {
@@ -40,7 +40,7 @@ const SegmentNav = () => {
                                             )
                                         })}
                                         <div>
-                                            <h1>Products</h1>
+                                            <h1 className='product-heading'>PRODUCTS</h1>
                                             <div >
                                                 {productBarMenu.map((t, i) => {
                                                     return (
@@ -66,7 +66,7 @@ const SegmentNav = () => {
                                             {featureProduct.map((t, i) => {
                                                 return (
                                                     <div className='featuresItems'>
-                                                        <div key={i} className='productMenu'>
+                                                        <div key={i} className='featureList'>
                                                             <img src={t.img} />
                                                             <div>
                                                                 <h1>{t.title}</h1>
@@ -80,16 +80,16 @@ const SegmentNav = () => {
                                         </div>
                                         <hr />
                                         <div className='lastItem'>
-                                            <img src='./img/sections/navigations/SegmentNav/c1.svg' alt="" />
+                                            <img src='./img/sections/navigations/SegmentNav/catalog.svg' alt="" />
                                             <div>
-                                                <h1>Protocols</h1>
+                                                <h1>Catalog</h1>
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                                             </div>
                                         </div>
                                         <div className='lastItem'>
-                                            <img src='./img/sections/navigations/SegmentNav/c1.svg' alt="" />
+                                            <img src='./img/sections/navigations/SegmentNav/segment.svg' alt="" />
                                             <div>
-                                                <h1>Market</h1>
+                                                <h1>Twilio + Segment</h1>
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                                             </div>
                                         </div>
@@ -127,9 +127,10 @@ const SegmentNav = () => {
                             setArrorOpen(!isArrorOpen)
                         }} className={`product-arrow-menu ${isArrorOpen ? "open-arror" : "close-arrow"}`} src="./img/sections/navigations/SegmentNav/right-arrow.svg" alt="" />
                     </span>
-                    {segmentProductMenu.map((t, i) => {
-                        return (
-                            <>
+                    <div>
+                        <p>SEGMENT FOR...</p>
+                        {segmentProductMenu.map((t, i) => {
+                            return (
                                 <div key={i} className={`inside-product-menu-list ${isProductMenu ? "open-product-list" : "close-product-list"}`}>
                                     <div className='product-mob-list'>
                                         <div className='all-menu'>
@@ -138,9 +139,22 @@ const SegmentNav = () => {
                                         </div>
                                     </div>
                                 </div>
-                            </>
-                        )
-                    })}
+                            )
+                        })}
+                        <p>PRODUCTS</p>
+                        {productBarMenu.map((t, i) => {
+                            return (
+                                <div key={i} className={`inside-product-menu-list ${isProductMenu ? "open-product-list" : "close-product-list"}`}>
+                                    <div className='product-mob-list'>
+                                        <div className='all-menu'>
+                                            <img src={t.img} alt="" />
+                                            <h1>{t.title}</h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            )
+                        })}
+                    </div>
                 </div>
                 <a href="#sub">Pricing</a>
                 <a href="#sub">Customers</a>
