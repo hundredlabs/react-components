@@ -15,17 +15,14 @@ const NavclickUp = () => {
             <nav className='nav-clickup'>
                 <div>
                     <img src='./img/sections/navigations/ClickupNav/click.png' alt="design" />
-                    <h1>ClickUp</h1>
+                    <h1 className='h1-nav-clickup'>ClickUp</h1>
                 </div>
                 <div className='web-full-product-menu'>
-                    <div className={`features ${isOpen ? 'open-feature' : ''}`}
-                        onMouseOver={(e) => {
-                            e.preventDefault();
-                            modifystate(true)
-                        }} onMouseLeave={(e) => modifystate(false)}>
-                        <span onClick={() => {
+                    <div className={`features ${isOpen ? 'open-feature' : ''}`}>
+                        <span onMouseOver={() => {
                             setWebProductOpen(!isWebProductOpen)
-                        }}>Product</span>
+                        }}>Product <img className={`arrowBar ${isWebProductOpen ? "open-arrow" : "close-arrow"}`} src="./img/sections/navigations/ClickupNav/arrow.svg" alt="" />
+                        </span>
 
                     </div>
                     <div className={`webProduct ${isWebProductOpen ? "open-product" : "close-product"}`}>
@@ -35,7 +32,7 @@ const NavclickUp = () => {
                             <div className='web-header'>
                                 <div className='web-header-logo'>
                                     <img className='img-header' src='./img/sections/navigations/ClickupNav/click.png' alt="logo" />
-                                    <p4>ClichUp</p4><p2>3.0</p2>
+                                    <span4 className="clickup-headline">ClickUp</span4><p2>3.0</p2>
                                 </div>
                                 <div className='web-header-sentence'>
                                     Unlock the next generation of productivity<p3> →</p3>
@@ -71,13 +68,13 @@ const NavclickUp = () => {
                                     )
                                 })}
                             </div>
-                            <div className='product-btn'>SEE ALL FEATURES</div>
+                            <div className='product-btn'>See All Features <img className='feature-arrow' src='./img/sections/navigations/ClickupNav/right-arrow.svg' /></div>
                         </div>
                         <hr className='hrLine' />
                         <div className='secondListItems'>
                             <div className='features-item'>
                                 <div>
-                                    <span className='feature-heading'>FEATURES</span>
+                                    <span className='feature-heading'>PLATFORM</span>
                                     {webProductMenuThird.map((t, i) => {
                                         return (
                                             <div key={i} className="third-web-nav-list">
@@ -148,10 +145,10 @@ const NavclickUp = () => {
                             <div className='mob-header'>
                                 <div className='mob-header-logo'>
                                     <img className='img-header' src='./img/sections/navigations/ClickupNav/click.png' alt="logo" />
-                                    <p4>ClichUp</p4><p2>3.0</p2>
+                                    <p4>ClickUp</p4><p2>3.0</p2>
                                 </div>
                                 <div className='mob-header-sentence'>
-                                    Unlock the next generation of productivity<p3> →</p3>
+                                    See What's New<p3> →</p3>
                                 </div>
                             </div>
                         </div>

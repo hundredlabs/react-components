@@ -3,24 +3,19 @@
     justify-content: space-between;
     margin-left: 50px;
     border-bottom: 1px solid #EEE;
-    max-width: 2200px;
-    margin: 0 auto;
 }
 
-.nav-clickup h1 {
-    font-size: 3.8rem;
-    font-weight: bold;
-}
 
 .nav-clickup>div>img {
-    margin: 0px 20px;
+    margin: 0px 10px;
     height: 60px;
-    width: 60px;
+    width: 50px;
 }
 
 .nav-clickup>div:first-child {
     display: flex;
     align-items: center;
+    margin-top: 20px;
 }
 
 .nav-clickup>a {
@@ -145,36 +140,43 @@
 .nav-clickup .first-web-product-list {
     display: flex;
     align-items: center;
+    width: 370px;
 }
 
 .nav-clickup .first-web-product-list>img {
-    height: 60px;
+    height: 40px;
     margin-right: 10px;
+    margin-bottom: 40px;
 }
 
 .nav-clickup .first-web-product-list>div h1 {
-    font-size: 2.8rem;
-    margin-right: 100px;
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin-bottom: 0px;
 }
 
 .nav-clickup .second-web-product-list>img {
-    height: 60px;
+    height: 40px;
     margin-right: 10px;
+    margin-bottom: 40px;
 }
 
 .nav-clickup .second-web-product-list {
     margin-top: 50px;
     display: flex;
     align-items: center;
+    width: 370px;
 }
 
 .nav-clickup .second-web-nav-list>div>div h1 {
-    font-size: 2.5rem;
+    font-size: 2.4rem;
+    font-weight: 600;
 }
 
 
 .nav-clickup .third-web-product-list>div>h1 {
-    font-size: 2.6rem;
+    font-size: 2.4rem;
+    font-weight: 600;
 }
 
 .nav-clickup .third-web-product-list {
@@ -188,7 +190,7 @@
 }
 
 .nav-clickup .first-web-product-list>div p {
-    margin-top: -20px;
+    font-size: 1.1rem;
 }
 
 .nav-clickup .second-web-product-list>div p {
@@ -235,9 +237,9 @@
 
 
 .nav-clickup .hrLine {
-    height: 50rem;
+    border: 2px solid #EEE;
     margin-top: 1px;
-    margin-left: 1px;
+    margin-left: 140px;
 }
 
 .nav-clickup .first-product-option {
@@ -251,7 +253,7 @@
 
 .nav-clickup .second-product-option {
     display: flex;
-    gap: 20px;
+    gap: 50px;
     margin-bottom: 40px;
 }
 
@@ -260,26 +262,24 @@
 }
 
 .nav-clickup .web-header-logo>img {
-    height: 50px;
-    width: 40px;
-    margin-top: 10px;
+    height: 40px;
+    width: 35px;
+}
+
+..web-header-logo {
+    align-items: center;
 }
 
 .nav-clickup .web-header {
     background: linear-gradient(108.42deg, #2a2e34 59.96%, #ff41c9 116.89%);
-    width: 1200px;
+    width: 1350px;
     border-radius: 12px;
     padding: 40px 30px;
     display: flex;
-    margin-top: -12px;
     align-items: center;
     justify-content: space-between;
-    align-items: center;
 }
 
-.nav-clickup .web-header-logo {
-    color: white;
-}
 
 .nav-clickup .web-header-sentence {
     color: white;
@@ -290,9 +290,11 @@
     color: #ff41c9;
 }
 
-.nav-clickup .web-header-logo p4 {
+.nav-clickup .clickup-headline {
     color: white;
-    font-size: 2.3rem;
+    margin-left: 5px;
+    font-size: 2.7rem;
+    font-weight: 600;
 }
 
 .nav-clickup .web-header-logo p2 {
@@ -302,14 +304,17 @@
 
 .newTag {
     background-color: #2b2f35;
-    border-radius: 8px;
-    padding: 1px 10px;
+    border-radius: 12px;
+    padding: 4px 15px;
     color: white;
     margin-right: 80rem;
+    margin-left: 28px;
+    margin-bottom: 0px;
 }
 
 .nav-clickup .web-product-heading {
     float: left;
+    font-weight: 500;
     font-size: 2.1rem;
     margin: 20px;
 }
@@ -324,29 +329,31 @@
 
 .nav-clickup .web-product-menu-List {
     width: 1270px;
-    margin-left: 10rem;
     margin-right: 1rem;
 }
 
 .nav-clickup .feature-heading {
     font-size: 2.1rem;
     margin: 20px;
+    font-weight: 500;
 }
 
 .nav-clickup .features-item img {
-    height: 60px;
+    height: 40px;
     margin-right: 10px;
+    margin-bottom: 28px;
 }
 
 .nav-clickup .last-web-nav-list>div {
-    padding: 35px 20px;
+    padding: 40px 200px;
     display: flex;
     align-items: center;
 }
 
 .nav-clickup .last-web-nav-list>div>img {
-    height: 80px;
+    height: 50px;
     margin-right: 10px;
+    margin-bottom: 28px;
 }
 
 .nav-clickup .last-web-nav-list>div>div p {
@@ -354,7 +361,8 @@
 }
 
 .nav-clickup .features-item h1 {
-    font-size: 2.5rem;
+    font-size: 2.4rem;
+    font-weight: 600;
 }
 
 .nav-clickup .features-last-items {
@@ -372,5 +380,47 @@
     display: flex;
     justify-content: center;
     padding: 20px;
+    width: 1350px;
     background-color: #EEE;
+    font-weight: 500;
+}
+
+.nav-clickup .h1-nav-clickup {
+    font-size: 3.1rem;
+}
+
+.nav-clickup .feature-arrow {
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.nav-clickup .arrowBar {
+    height: 25px;
+}
+
+.nav-clickup .open-arrow {
+    rotate: 180deg;
+}
+
+.nav-clickup .open-arrow:hover {
+    color: #7c68ed;
+}
+
+.nav-clickup .features:hover {
+    color: #7c68ed;
+}
+
+.nav-clickup .features>span>img:hover {
+    color: #7c68ed;
+}
+
+.nav-clickup .first-product-option>div:hover {
+    border-radius: 12px;
+    background-color: aqua;
+}
+
+.nav-clickup .second-product-option>div:hover {
+    border-radius: 12px;
+    background-color: aqua;
 }

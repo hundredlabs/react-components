@@ -32,68 +32,68 @@ const webProductMenuFirst = [
     {
         title: "Tasks",
         img: './img/sections/navigations/ClickupNav/task.svg',
-        author: "Break down the product size"
+        author: "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
     },
     {
         title: "Docs",
         img: './img/sections/navigations/ClickupNav/doc.svg',
-        author: "Break down the product size"
+        author: "Expedita ab dolor id dolorem tenetur quas hic."
     },
     {
         title: "Goals",
         img: './img/sections/navigations/ClickupNav/goal.svg',
-        author: "Break down the product size"
+        author: "eligendi laborum, ipsa sit omnis! At iure quasi in unde maxime"
     },
 ]
 const webProductMenuSecond = [
     {
         title: "Whiteboards",
         img: './img/sections/navigations/ClickupNav/white.svg',
-        author: "Break down the product size"
+        author: "eligendi laborum, ipsa sit omnis! At iure quasi in unde maxime"
     },
     {
         title: "Dashboards",
         img: './img/sections/navigations/ClickupNav/dash.svg',
-        author: "Break down the product size"
+        author: "Expedita ab dolor id dolorem tenetur quas hic."
     },
     {
         title: "Chat",
         img: './img/sections/navigations/ClickupNav/chat.svg',
-        author: "Break down the product size"
+        author: "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
     },
 ]
 const webProductMenuThird = [
     {
         title: "Templates",
         img: './img/sections/navigations/ClickupNav/temp.svg',
-        author: "Break down the product size"
+        author: "Expedita ab dolor id dolorem tenetur quas hic."
     },
     {
         title: "Integrations",
         img: './img/sections/navigations/ClickupNav/inr.svg',
-        author: "Break down the product size"
+        author: "eligendi laborum, ipsa sit omnis! At iure quasi in unde maxime"
     },
     {
         title: "Hierarchy",
         img: './img/sections/navigations/ClickupNav/hie.svg',
-        author: "Break down the product size"
+        author: "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
     },
 ]
 const webProductMenuFour = [
     {
         title: "ClickApps",
         img: './img/sections/navigations/ClickupNav/click.svg',
-        author: "Break down the product size"
+        author: "eligendi laborum, ipsa sit omnis! At iure quasi in unde maxime"
     },
     {
         title: "Views",
         img: './img/sections/navigations/ClickupNav/view.svg',
-        author: "Break down the product size"
+        author: "Expedita ab dolor id dolorem tenetur quas hic."
     },
     {
         title: "Automations",
         img: './img/sections/navigations/ClickupNav/auto.svg',
-        author: "Break down the product size"
+        author: "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
     },
 ]
 
