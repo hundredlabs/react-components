@@ -127,7 +127,7 @@ const SegmentNav = () => {
                             setArrorOpen(!isArrorOpen)
                         }} className={`product-arrow-menu ${isArrorOpen ? "open-arror" : "close-arrow"}`} src="./img/sections/navigations/SegmentNav/right-arrow.svg" alt="" />
                     </span>
-                    <div>
+                    <div className='product-mob-all-list'>
                         <p>SEGMENT FOR...</p>
                         {segmentProductMenu.map((t, i) => {
                             return (

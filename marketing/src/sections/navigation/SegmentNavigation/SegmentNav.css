@@ -110,7 +110,7 @@
     margin-bottom: 0;
     font-size: 1.2rem;
     margin-top: 0;
-    color: #858181;
+    color: rgba(92, 77, 107, 0.7);
 }
 
 .segment-navigation .lastItem {
@@ -130,7 +130,7 @@
     margin-bottom: 0;
     font-size: 1.2rem;
     margin-top: 0;
-    color: #858181;
+    color: rgba(92, 77, 107, 0.7);
 }
 
 .lastItem>div h1 {
@@ -154,7 +154,7 @@
 
 .segment-navigation .productMenu>img {
     margin-right: 15px;
-    background-color: #d8d8d8;
+    background-color: rgb(244, 244, 246);
     height: 40px;
     width: 40px;
     margin-top: 20px;
@@ -163,7 +163,7 @@
 }
 
 .segment-navigation .productMenu>div>h1 {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     margin-bottom: 0;
     font-weight: 500;
     margin-top: 10px;
@@ -175,11 +175,11 @@
 }
 
 .segment-navigation .productMenu>div:hover {
-    color: aqua;
+    color: #52bd94;
 }
 
 .segment-navigation .productMenu>div>p:hover {
-    color: aqua;
+    color: #52bd94;
 }
 
 .segment-navigation .all-product-menu {
@@ -198,7 +198,7 @@
 .segment-navigation .segment-heading {
     font-size: 1.3rem;
     font-weight: 700;
-    color: #858181;
+    color: rgba(92, 77, 107, 0.7);
     margin-left: 20px;
 }
 
