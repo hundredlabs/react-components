@@ -15,16 +15,17 @@
         padding: 4px;
         border-radius: 8px;
         margin-top: 15px;
-        margin-left: 160px;
+        margin-left: 130px;
     }
 
     .nav-clickup div:first-child h1 {
-        font-size: 1.1rem;
+        font-size: 1.8rem;
     }
 
     .nav-clickup div:first-child img {
         height: 30px;
-        width: 30px;
+        width: 26px;
+        margin-left: 14px;
     }
 
     .nav-clickup {
@@ -44,7 +45,7 @@
     .hamburger {
         position: relative;
         display: block;
-        margin-right: 12px;
+        margin-right: 17px;
     }
 
     .open-hamburger .slice-1 {
@@ -64,13 +65,13 @@
     .mobile-nav-links {
         display: flex;
         flex-direction: column;
-        gap: 20px 0;
+        gap: 35px 0;
         padding: 20px;
         background-color: white;
         transition: transform .6s ease-in;
         z-index: 1;
         position: absolute;
-        top: 0;
+        top: 15px;
         left: 0;
     }
 
@@ -127,7 +128,8 @@
     }
 
     .product-open-arrow {
-        rotate: 180deg;
+        rotate: 90deg;
+        margin-right: 6px;
     }
 
     .open-menu {
@@ -163,19 +165,24 @@
     }
 
     .mob-product-menu-List .newTag {
-        margin: 25px;
-        padding: 1px 2px;
+        margin: 16px;
+        padding: 1px 7px;
         border-radius: 4px;
         background: linear-gradient(108.42deg, #2a2e34 59.96%, #ff41c9 116.89%);
         color: white;
+        border-radius: 8px;
+        font-size: 0.8rem;
     }
 
     .mob-header-logo>img {
         height: 20px;
         width: 20px;
+        margin-right: 6px;
+        margin-left: -8px;
     }
 
     .mob-header-logo>p4 {
+        font-weight: 500;
         font-size: 1.1rem;
         color: white;
     }
@@ -188,12 +195,13 @@
     .mob-header-sentence {
         font-size: 1.1rem;
         color: white;
-        margin-left: 50px;
+        margin-left: 68px;
+        font-weight: 600;
     }
 
     .mob-header-sentence>p3 {
-        font-size: 1.1rem;
-        margin-left: 10px;
+        font-size: 1.5rem;
+        margin-left: 5px;
         color: #ff41c9;
     }
 
@@ -211,21 +219,21 @@
 
     .mob-header {
         background: linear-gradient(108.42deg, #2a2e34 59.96%, #ff41c9 116.89%);
-        width: 300px;
+        width: 320px;
         border-radius: 12px;
         padding: 20px 30px;
         display: flex;
         align-items: center;
-        margin-top: -15px;
+        margin-top: -10px;
     }
 
     .mob-product-list>img {
-        height: 25px;
+        height: 20px;
         margin-right: 10px;
     }
 
     .mob-product-list>h1 {
-        font-size: 0.9rem;
+        font-size: 1.1rem;
     }
 
     .mob-product-list {
@@ -234,6 +242,15 @@
 
     .nav-clickup .web-full-product-menu {
         display: none;
+    }
+
+    .mob-sign-btn {
+        background-color: blue;
+        color: white;
+        font-weight: 800;
+        border: none;
+        border-radius: 8px;
+        padding: 10px;
     }
 
 }

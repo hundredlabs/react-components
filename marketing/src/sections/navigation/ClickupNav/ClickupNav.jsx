@@ -28,7 +28,7 @@ const NavclickUp = () => {
                     <div className={`webProduct ${isWebProductOpen ? "open-product" : "close-product"}`}>
                         <div className={`web-product-menu-List ${isArrowOpen ? "open-menu" : "close-menu"}`}>
                             <span className='web-product-heading'>PRODUCTS</span>
-                            <span className='newTag'>new</span>
+                            <h15 className='newTag'>NEW</h15>
                             <div className='web-header'>
                                 <div className='web-header-logo'>
                                     <img className='img-header' src='./img/sections/navigations/ClickupNav/click.png' alt="logo" />
@@ -48,6 +48,7 @@ const NavclickUp = () => {
                                                 <div>
                                                     <h1>{t.title}</h1>
                                                     <p>{t.author}</p>
+                                                    <p>{t.author}</p>
                                                 </div> </div>
                                         </div>
                                     )
@@ -61,6 +62,7 @@ const NavclickUp = () => {
                                                 <img className='web-img-list' src={t.img} alt="task" />
                                                 <div>
                                                     <h1>{t.title}</h1>
+                                                    <p>{t.author}</p>
                                                     <p>{t.author}</p>
                                                 </div>
                                             </div>
@@ -83,6 +85,7 @@ const NavclickUp = () => {
                                                     <div>
                                                         <h1>{t.title}</h1>
                                                         <p>{t.author}</p>
+                                                        <p>{t.author}</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -98,6 +101,7 @@ const NavclickUp = () => {
                                                         <img className='web-img-list' src={t.img} alt="task" />
                                                         <div>
                                                             <h1>{t.title}</h1>
+                                                            <p>{t.author}</p>
                                                             <p>{t.author}</p>
                                                         </div>
                                                     </div>
@@ -170,6 +174,8 @@ const NavclickUp = () => {
                 <a href="#sub">Learn</a>
                 <a href="#sub">Pricing</a>
                 <a href="#">Enterprises</a>
+                <a href="#">Contact sales</a>
+                <button className='mob-sign-btn'>Sign Up</button>
             </div>
 
         </>
