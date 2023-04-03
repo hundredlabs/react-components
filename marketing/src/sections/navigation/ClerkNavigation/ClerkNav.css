@@ -43,8 +43,9 @@
     margin: 0 30px;
     align-items: center;
     text-decoration: none;
-    font-size: 1.7rem;
+    font-size: 1.9rem;
     font-weight: 500;
+    color: black;
 }
 
 .clerk-navigation .nav-button:last-child {
@@ -92,13 +93,15 @@
 .clerk-navigation .web-mob-list>div>img {
     height: 35px;
     width: 35px;
-    margin: 10px;
+    margin-right: 15px;
+    margin-left: 10px;
 }
 
 .clerk-navigation .web-second-list>div>img {
     height: 35px;
     width: 35px;
-    margin: 10px;
+    margin-right: 15px;
+    margin-left: 10px;
 }
 
 
@@ -113,13 +116,13 @@
     position: absolute;
     width: 1100px;
     box-shadow: rgba(13, 21, 55, 0.4) 0px 40px 80px;
-    border-radius: 20px;
+    border-radius: 30px;
 }
 
 .clerk-navigation .web-product-item {
-    font-size: 1.7rem;
+    font-size: 1.9rem;
     font-weight: 500;
-    color: #551A8b;
+    color: black;
     margin-right: 30px;
 }
 
@@ -148,7 +151,7 @@
 .clerk-navigation .web-mob-list h1 {
     color: #636974;
     font-size: 1.3rem;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .clerk-navigation .web-second-list>div {
@@ -166,7 +169,7 @@
 .clerk-navigation .web-second-list h1 {
     color: #636974;
     font-size: 1.3rem;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 
@@ -189,9 +192,11 @@
 
 .clerk-navigation .product-list-menu p {
     color: #636974;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     font-weight: 500;
     margin: 10px;
+    margin-top: 32px;
+    margin-bottom: 20px;
 }
 
 .clerk-navigation .product-list-menu>span {
@@ -202,14 +207,20 @@
 
 .clerk-navigation .jamstack-framework>span {
     color: #636974;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     font-weight: 500;
     margin-top: 60px;
 }
 
-.clerk-navigation .jamstack-framework-item>span {
+
+.clerk-navigation .jamstack-framework-item {
+    margin-top: 15px;
+}
+
+.clerk-navigation .database-heading {
+    margin-bottom: 15px;
     color: #636974;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     font-weight: 500;
 }
 

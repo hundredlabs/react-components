@@ -61,7 +61,7 @@
         transition: transform 0.6s;
     }
 
-    .mobile-nav-list .close-arrow {
+    .mobile-nav-list .open-arrow {
         rotate: 90deg;
     }
 
@@ -107,11 +107,11 @@
     }
 
     .mobile-nav-list>div>span>p {
-        margin-left: 20px;
+        margin-left: 30px;
         margin-top: 10px;
         margin-bottom: 0px;
         font-weight: 500;
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
 
     .mobile-nav-list {
@@ -135,14 +135,16 @@
 
     .mobile-nav-list>a {
         text-decoration: none;
-        margin: 0px 20px;
+        margin: 6px 20px;
         color: black;
+        font-size: 1.2rem;
+        margin-left: 30px;
     }
 
     .mobile-nav-list .arrow-rotate {
         margin-top: 13px;
-        height: 25px;
-        margin-right: 5px;
+        height: 15px;
+        margin-left: 17rem;
     }
 
     .mobile-nav-list .mob-hr {

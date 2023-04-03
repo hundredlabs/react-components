@@ -64,7 +64,7 @@ const Clerk = () => {
                                         })}
 
                                         <div className="jamstack-framework-item">
-                                            <span>JAMSTACK DATABASE INTEGRATIONS</span>
+                                            <div className="database-heading">JAMSTACK DATABASE INTEGRATIONS</div>
                                             {databaseItem.map((t, i) => {
                                                 return (
                                                     <div key={i} className="web-second-list">
@@ -77,7 +77,7 @@ const Clerk = () => {
                                             })}
                                         </div>
                                         <div className="jamstack-framework-item">
-                                            <span>TRADITIONAL FRAMEWORK INTEGRATIONS</span>
+                                            <div className="database-heading">TRADITIONAL FRAMEWORK INTEGRATIONS</div>
                                             {traditionalItem.map((t, i) => {
                                                 return (
                                                     <div key={i} className="web-second-list">
