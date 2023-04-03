@@ -21,7 +21,7 @@ const NavclickUp = () => {
                     <div className={`features ${isOpen ? 'open-feature' : ''}`}>
                         <span onMouseOver={() => {
                             setWebProductOpen(!isWebProductOpen)
-                        }}>Product <img className={`arrowBar ${isWebProductOpen ? "open-arrow" : "close-arrow"}`} src="./img/sections/navigations/ClickupNav/arrow.svg" alt="" />
+                        }}>Product <img className={`arrowBar ${isWebProductOpen ? "open-arrow" : "close-arrow"}`} src="./img/sections/navigations/ClickupNav/down-arrow.svg" alt="" />
                         </span>
 
                     </div>

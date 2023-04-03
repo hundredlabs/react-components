@@ -3,6 +3,7 @@
     justify-content: space-between;
     margin-left: 20px;
     border-bottom: 1px solid #EEE;
+    align-items: center;
 }
 
 
@@ -27,7 +28,7 @@
 }
 
 .nav-clickup:first-child a {
-    margin-top: 75px;
+    margin-top: 15px;
 }
 
 
@@ -192,7 +193,7 @@
 }
 
 .nav-clickup .web-full-product-menu>div:first-child {
-    margin-top: 4.7rem;
+    margin-top: 15px;
     font-weight: 700;
     font-size: 1.8rem;
 }
@@ -425,4 +426,8 @@
 
 .nav-clickup .features>span>img {
     margin-top: 11px;
+}
+
+.buttons {
+    margin-bottom: 31px;
 }
