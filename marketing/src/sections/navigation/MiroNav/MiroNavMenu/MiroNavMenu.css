@@ -1,0 +1,135 @@
+.miro-nav-menu {
+    position: absolute;
+    right: -250px;
+    left: -250px;
+    transform: scaleY(0);
+    transform-origin: top center;
+    top: 81px;
+    transition: .4s all ease-in-out;
+    z-index: 10;
+    background-color: white;
+    transition-delay: 250ms;
+}
+
+.miroNav-open {
+    transform: scaleY(1);
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 60px 100px;
+}
+
+.miro-nav-menu .product-description-list {
+    margin-bottom: 40px;
+}
+
+.miro-nav-menu .miro-nav-container {
+    padding: 40px 0px;
+    max-width: 1420px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+}
+
+.miro-nav-menu hr {
+    height: 1px;
+    background-color: #e9e7e7;
+    border: none;
+}
+
+.miro-nav-menu .miro-nav-container p {
+    margin-top: 10px;
+    color: #a2a2a2;
+    font-size: 1rem;
+}
+
+
+.miro-nav-menu .miro-nav-prod-opt {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+    row-gap: 10px;
+    place-items: center;
+    margin-bottom: 40px;
+}
+
+.miro-nav-menu .miro-nav-prod-opt>div {
+    padding: 10px;
+    width: 180px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.miro-nav-menu .product-header {
+    margin-top: 0;
+    padding-left: 10px;
+}
+
+.miro-nav-menu .miro-nav-prod-opt>div:hover {
+    background-color: #e5e5e5a9;
+}
+
+.miro-nav-menu .miro-nav-prod-opt a {
+    font-size: 1.2rem;
+}
+
+.miro-nav-menu .miro-nav-menu-new-option {
+    background-color: #fbe6e5;
+    padding: 30px;
+    border-radius: 15px;
+    width: 400px;
+    height: 350px;
+}
+
+.miro-nav-menu .miro-nav-menu-new-option-content {
+    display: flex;
+    margin-bottom: 40px;
+    gap: 40px;
+}
+
+.miro-nav-menu .miro-nav-menu-new-option-content>div:first-child {
+    height: 75px;
+    width: 200px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    background-color: #cfcccc;
+}
+
+.miro-nav-menu .miro-nav-menu-new-option-content a {
+    font-size: 1.4rem;
+}
+
+.miro-nav-menu .miro-nav-menu-new-option-content p {
+    margin-top: 5px;
+    font-size: 1rem;
+}
+
+.miro-nav-menu .see-change {
+    font-size: 1.3rem;
+    border-bottom: 1px solid #4262ff;
+    color: #4262ff;
+}
+
+.see-change:hover {
+    border-bottom: none;
+}
+
+.miro-nav-menu .contact-sales {
+    max-width: 1420px;
+    margin: 0 auto;
+    padding-bottom: 18px;
+}
+
+.miro-nav-menu .contact-sales a {
+    font-size: 1.3rem;
+    border-bottom: 1px solid #4262ff;
+    color: #4262ff;
+}
+
+.miro-nav-menu .contact-sales a:hover {
+    border-bottom: none;
+}
+
+
+.miro-nav-menu .right-arrow {
+    color: #4262ff;
+}

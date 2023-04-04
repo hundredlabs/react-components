@@ -1,0 +1,153 @@
+.bright-bg {
+    background-color: #ffffff;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.dull-bg {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.miro-hero-container .miro-nav-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1420px;
+    align-items: center;
+    margin: 0 auto;
+    font-family: sans-serif;
+    height: 80px;
+}
+
+.miro-hero-container .hero-nav {
+    background-color: #ffffff;
+    position: relative;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.miro-hero-container .miro-nav-container a {
+    text-decoration: none;
+}
+
+.miro-hero-container .miro-nav-container .miroNav-menu {
+    padding: 0;
+}
+
+.miro-hero-container .miro-nav-container .miroNav-menu>div:first-child {
+    display: flex;
+}
+
+.miro-hero-container .miro-nav-container .miroNav-product-menu {
+    display: flex;
+    align-items: center;
+}
+
+.miro-hero-container .product-open {
+    color: #4262ff;
+}
+
+.miro-nav-container .miroNav-menu ul {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+
+}
+
+.miro-hero-container .miro-nav-container .miroNav-menu ul>li {
+    font-size: 1.3rem;
+    list-style: none;
+}
+
+.miro-hero-container .miro-nav-container .miro-nav-links .nav-links {
+    color: black;
+}
+
+.miro-hero-container .miro-nav-container .miro-nav-links .nav-links:hover {
+    color: blue;
+}
+
+.miro-hero-container .miro-nav-container .action-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.miro-hero-container .miro-nav-container .action-links a:not(:last-child) {
+    font-size: 1.2rem;
+    color: black;
+}
+
+.miro-hero-container .miro-nav-container .action-links a:not(:last-child):hover {
+    color: blue;
+}
+
+.miro-hero-container .miro-nav-container .globe-EN {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.miro-hero-container .miro-nav-container .globe-EN img {
+    height: 30px;
+}
+
+.miro-hero-container .miro-nav-container .globe-EN div {
+    padding-top: 2px;
+}
+
+.miro-hero-container .miro-nav-container .product-menu-close {
+    transform: rotate(0deg);
+    transition: .4s;
+}
+
+.miro-hero-container .miro-nav-container .product-menu-open {
+    transition: .4s;
+    transform: rotate(-180deg);
+}
+
+.miro-hero-container .miro-nav-container a {
+    transition: .4s all;
+}
+
+.miro-hero-container .miro-nav-container a:hover {
+    cursor: pointer;
+    color: #4262ff;
+    text-decoration: none;
+}
+
+.miro-nav-container .signUp {
+    border-radius: 25px;
+    background-color: #4262ff;
+    padding: 15px 20px;
+    color: white;
+}
+
+.miro-hero-container .miro-nav-container .signUp:hover {
+    color: white;
+}
+
+.miro-hero-container .miro-nav-container .miro-section {
+    border: 0.2px solid #f0f0f0;
+    width: 100%;
+}
+
+
+.miro-hero-container .miroNav-underline-border-open {
+    height: 2px;
+    background-color: blue;
+    width: 100px;
+    transform-origin: left center;
+    transition: transform 0.35s cubic-bezier(0, 0, 0.16, 0.96) 0s;
+    transform: translateX(123px) scaleX(0.872656);
+    position: absolute;
+    left: 215px;
+    margin-top: 9px;
+}
+
+.miro-hero-container .mobile-nav-links {
+    display: none;
+}
+
+.miro-hero-container .miro-nav-container .hamburger {
+    display: none;
+}
